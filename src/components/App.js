@@ -26,7 +26,7 @@ class App extends Component {
 
     async loadBlockchainData() {
         const web3 = window.web3
-            // Load account
+        // Load account
         const accounts = await web3.eth.getAccounts()
         this.setState({ account: accounts[0] })
         const networkId = await web3.eth.net.getId()
@@ -36,7 +36,7 @@ class App extends Component {
             this.setState({ marketplace })
             const productCount = await marketplace.methods.productCount().call()
             this.setState({ productCount })
-                // Load products
+            // Load products
             for (var i = 1; i <= productCount; i++) {
                 const product = await marketplace.methods.products(i).call()
                 this.setState({
@@ -79,31 +79,31 @@ class App extends Component {
     }
 
     render() {
-        return ( <
-            div >
-            <
-            Navbar account = { this.state.account }
-            /> <
-            div className = "container-fluid mt-5" >
-            <
-            div className = "row" >
-            <
-            main role = "main"
-            className = "col-lg-12 d-flex" > {
-                this.state.loading ?
-                < div id = "loader"
-                className = "text-center" > < p className = "text-center" > Loading... < /p></div >
-                :
-                    < Main
-                products = { this.state.products }
-                createProduct = { this.createProduct }
-                purchaseProduct = { this.purchaseProduct }
+        return (
+            <div >
+                <Navbar account={this.state.account}
                 />
-            } <
-            /main> <
-            /div> <
-            /div> <
-            /div>
+                <div className="container-fluid mt-5" >
+
+                    <div className="row" >
+
+                        <main role="main"
+                            className="col-lg-12 d-flex" > {
+                                this.state.loading ?
+                                    <div id="loader"
+                                        className="text-center" > < p className="text-center" > Loading... </p>
+                                    </div >
+                                    :
+                                    <Main
+                                        products={this.state.products}
+                                        createProduct={this.createProduct}
+                                        purchaseProduct={this.purchaseProduct}
+                                    />
+                            }
+                        </main>
+                    </div>
+                </div>
+            </div>
         );
     }
 }
