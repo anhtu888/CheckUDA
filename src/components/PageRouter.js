@@ -18,7 +18,7 @@ export default function PageRouter() {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/products">Sản Phẩm</Link>
+                            <Link to="/products">Sản Phẩm 2</Link>
                         </li>
                     </ul>
                 </nav>
