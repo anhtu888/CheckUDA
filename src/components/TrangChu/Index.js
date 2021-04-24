@@ -67,8 +67,15 @@ class Index extends React.Component {
                                     lượng thuốc bảo vệ thực vật , nơi mà mọi người có thể yên tâm về chất lượng sản phẩm .Và cũng là nơi à
                                     người bán có thể
                                     giới thiệu sản phẩm của mình , và bắt buộc phải khai báo rõ ràng về sản phẩm của mình khi đăng ký lên
-            trang web. </p>
+                                    trang web.Là một trang web tốt nhất để những người nội trợ của Việt Nam tin tưởng sử dụng mà không phải lo
+              về thực phẩm bẩn và không rỏ nguồn gốc. </p>
+                                    <div>
+                                        <a className="moreabout" href="gioithieu.html"> <button type="button" className="btn btn-primary">Xem
+      Thêm...</button></a>
+                                    </div>
                                 </div>
+
+
                             </div>
                             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 padding_rl">
                                 <div className="about-box_img">

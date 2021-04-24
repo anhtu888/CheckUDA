@@ -4,22 +4,55 @@ class Navbar extends Component {
 
     render() {
         return (
-            <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow" >
+            <header>
+                {/* header inner */}
+                <div className="header-top">
+                    <div className="header">
+                        <div className="container-fluid">
+                            <div className="row">
+                                <div className="col-xl-2 col-lg-2 col-md-2 col-sm-3 col logo_section">
+                                    <div className="full">
+                                        <div className="center-desk">
+                                            <div className="logo">
+                                                <a href="index.html"><img src="image/images/logo3.png" alt="#" /></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                                    <div className="menu-area">
+                                        <div className="limit-box">
+                                            <nav className="main-menu ">
+                                                <ul className="menu-area-main">
+                                                    <li className="active"> <a href="index.html">Trang Chủ</a> </li>
+                                                    <li> <a href="#about">Giới Thiệu</a> </li>
+                                                    <li> <a href="sanpham.html">Sản Phẩm</a> </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                                    <div className="menu-area">
+                                        <div className="limit-box">
+                                            <nav className="main-menu ">
+                                                <ul className="menu-area-main">
+                                                    <li> <a href="login.html">Đăng Nhập</a> </li>
+                                                    <li> <a href="register.html">Đăng Ký</a> </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* end header inner */}
+                {/* end header */}
 
-                <a className="navbar-brand col-sm-3 col-md-2 mr-0"
-                    href="http://www.dappuniversity.com/bootcamp"
-                    target="_blank"
-                    rel="noopener noreferrer" >
-                    Dapp University 's Blockchain Marketplace </a >
-                <ul className="navbar-nav px-3" >
+            </header>
 
-                    <li className="nav-item text-nowrap d-none d-sm-none d-sm-block" >
-
-                        <small className="text-white" > < span id="account" > {this.props.account} </span></small >
-
-                    </li>
-                </ul >
-            </nav>
         );
     }
 }
