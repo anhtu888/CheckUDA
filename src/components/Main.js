@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import './Product.css'
 
 class Main extends Component {
 
     render() {
         return (
             <div className="col-lg-12" >
-                <h1 > Add Product </h1>
+                <h1 style={{ textAlign: 'center' }} > Thêm Sản Phẩm </h1>
                 <form onSubmit={
                     (event) => {
                         event.preventDefault()
@@ -14,36 +15,82 @@ class Main extends Component {
                         this.props.createProduct(name, price)
                     }
                 } >
-                    <div className="form-group mr-sm-2" >
-                        <input id="productName" type="text"
-                            ref={
-                                (input) => { this.productName = input }
-                            }
-                            className="col-lg-4 form-control"
-                            placeholder="Product Name"
-                            required />
+                    <div className="row">
+                        <div className="form-group col-4" >
+                            <input id="productName" type="text"
+                                ref={
+                                    (input) => { this.productName = input }
+                                }
+                                className=" form-control"
+                                placeholder="Tên Sản Phẩm"
+                                required />
+                        </div>
+                        <div className="form-group col-4" >
+                            <input id="productName" type="text"
+                                ref={
+                                    (input) => { this.productName = input }
+                                }
+                                className=" form-control"
+                                placeholder="Gía sản Phẩm"
+                                required />
+                        </div>
+                        <div className="form-group col-4" >
+                            <input id="productPrice" type="text"
+                                ref={
+                                    (input) => { this.productPrice = input }
+                                }
+                                className="form-control "
+                                placeholder="Nơi trồng"
+                                required />
+                        </div>
                     </div>
-                    <div className="form-group mr-sm-2" >
-                        <input id="productPrice" type="text"
-                            ref={
-                                (input) => { this.productPrice = input }
-                            }
-                            className="form-control col-lg-4"
-                            placeholder="Product Price"
-                            required />
+                    <div className="row">
+                        <div className="form-group col-4" >
+                            <input id="productName" type="text"
+                                ref={
+                                    (input) => { this.productName = input }
+                                }
+                                className=" form-control"
+                                placeholder="Ngày gieo trồng"
+                                required />
+                        </div>
+                        <div className="form-group col-4" >
+                            <input id="productName" type="text"
+                                ref={
+                                    (input) => { this.productName = input }
+                                }
+                                className=" form-control"
+                                placeholder="Tên người trồng"
+                                required />
+                        </div>
+                        <div className="form-group col-4" >
+                            <input id="productPrice" type="text"
+                                ref={
+                                    (input) => { this.productPrice = input }
+                                }
+                                className="form-control "
+                                placeholder="Đơn vị cung cấp"
+                                required />
+                        </div>
+                        <div>
+                            <div className="form-group col-md-12"> <label> Hình ảnh của sản phẩm :</label>
+                                <form action="/action_page.php"> <input type="file" id="myFile" name="filename" /> </form>
+                                <div style={{ width: '200px', height: '300px', border: 'solid 1px' }}> </div>
+                            </div>
+                        </div>
                     </div>
                     <button type="submit"
-                        className="btn btn-primary" > Add Product </button>
+                        className="btn btn-primary"  > Thêm sản phẩm </button>
                 </form >
                 <h1 className="produc-hot"><b>Danh Mục Sản Phẩm</b></h1>
                 <table className="table" >
                     <thead >
                         <tr>
-                            <th scope="col" > # </th>
-                            <th scope="col" > Name </th>
-                            <th scope="col" > Price </th>
-                            <th scope="col" > Owner </th>
-                            <th scope="col" > </th>
+                            <th scope="col" > ID</th>
+                            <th scope="col" > Tên Sản Phẩm </th>
+                            <th scope="col" > Gía Sản Phẩm </th>
+                            <th scope="col" > Chủ Sở Hữu </th>
+                            <th scope="col" >Mua</th>
                         </tr>
                     </thead>
                     <tbody id="productList" > {
@@ -52,7 +99,7 @@ class Main extends Component {
                                 <th scope="row" > {product.id.toString()} </th>
                                 <td > {product.name} </td>
                                 <td > {window.web3.utils.fromWei(product.price.toString(), 'Ether')}
-                        Eth </td>
+                        VND </td>
                                 <td > {product.owner} </td>
                                 <td > {!product.purchased ?
                                     <button
@@ -63,7 +110,7 @@ class Main extends Component {
                                                 this.props.purchaseProduct(event.target.name, event.target.value)
                                             }
                                         } >
-                                        Buy </button> :
+                                        Mua </button> :
                                     null
                                 } </td> </tr>
                             )
