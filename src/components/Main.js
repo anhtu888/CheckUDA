@@ -4,7 +4,7 @@ class Main extends Component {
 
     render() {
         return (
-            <div id="content" >
+            <div className="col-lg-12" >
                 <h1 > Add Product </h1>
                 <form onSubmit={
                     (event) => {
@@ -19,7 +19,7 @@ class Main extends Component {
                             ref={
                                 (input) => { this.productName = input }
                             }
-                            className="form-control"
+                            className="col-lg-4 form-control"
                             placeholder="Product Name"
                             required />
                     </div>
@@ -28,14 +28,14 @@ class Main extends Component {
                             ref={
                                 (input) => { this.productPrice = input }
                             }
-                            className="form-control"
+                            className="form-control col-lg-4"
                             placeholder="Product Price"
                             required />
                     </div>
                     <button type="submit"
                         className="btn btn-primary" > Add Product </button>
                 </form >
-                <h2 > Buy Product </h2>
+                <h1 className="produc-hot"><b>Danh Mục Sản Phẩm</b></h1>
                 <table className="table" >
                     <thead >
                         <tr>

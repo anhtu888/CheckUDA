@@ -21,9 +21,6 @@ export default function PageRouter() {
                         <li>
                             <Link to="/products">Sản Phẩm 2</Link>
                         </li>
-                        <li>
-                            <Link to="/sp">danh muc sp</Link>
-                        </li>
                     </ul>
                 </nav>
 
@@ -31,13 +28,13 @@ export default function PageRouter() {
               renders the first one that matches the current URL. */}
                 <Switch>
                     <Route path="/products">
-                        <App />
-                    </Route>
-                    <Route path="/sp">
                         <Producsp />
                     </Route>
-                    <Route path="/">
+                    <Route exact path="/">
                         <Index />
+                    </Route>
+                    <Route path="/products-add">
+                        <App />
                     </Route>
                 </Switch>
             </div>

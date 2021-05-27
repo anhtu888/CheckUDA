@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Navbar extends Component {
+class Menu extends Component {
 
     render() {
         return (
@@ -24,8 +24,8 @@ class Navbar extends Component {
                                         <div className="limit-box">
                                             <nav className="main-menu ">
                                                 <ul className="menu-area-main">
-                                                    <li className="active"> <a href="index.html">Trang Chủ</a> </li>
-                                                    <li> <a href="#about">Giới Thiệu</a> </li>
+                                                    <li className="active"> <a href="/">Trang Chủ</a> </li>
+                                                    <li> <a href="/">Giới Thiệu</a> </li>
                                                     <li> <a href="/products">Sản Phẩm</a> </li>
                                                 </ul>
                                             </nav>
@@ -44,4 +44,4 @@ class Navbar extends Component {
     }
 }
 
-export default Navbar;
+export default Menu;
