@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import Navbar from './Navbar';
 
-class Navbar extends Component {
-
+class Producsp extends Component {
     render() {
         return (
+
             <header>
                 {/* header inner */}
                 <div className="header-top">
@@ -41,8 +42,9 @@ class Navbar extends Component {
                 {/* end header */}
 
             </header>
-        );
+
+
+        )
     }
 }
-
-export default Navbar;
+export default Producsp;

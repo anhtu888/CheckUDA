@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Index from "./TrangChu/Index";
 import App from "./App";
+import Producsp from "./Producsp";
 
 export default function PageRouter() {
     return (
@@ -20,6 +21,9 @@ export default function PageRouter() {
                         <li>
                             <Link to="/products">Sản Phẩm 2</Link>
                         </li>
+                        <li>
+                            <Link to="/sp">danh muc sp</Link>
+                        </li>
                     </ul>
                 </nav>
 
@@ -28,6 +32,9 @@ export default function PageRouter() {
                 <Switch>
                     <Route path="/products">
                         <App />
+                    </Route>
+                    <Route path="/sp">
+                        <Producsp />
                     </Route>
                     <Route path="/">
                         <Index />

@@ -10,19 +10,19 @@ class Index extends React.Component {
                 <header>
                     {/* header inner */}
                     <div className="header-top">
-                        <div className="header">
+                        <div className="header" style={{ background: 'none' }}>
                             <div className="container-fluid">
                                 <div className="row">
-                                    <div className="col-xl-2 col-lg-2 col-md-2 col-sm-3 col logo_section">
+                                    <div className="col-xl-2 col-lg-4 col-md-4 col-sm-3 col logo_section">
                                         <div className="full">
                                             <div className="center-desk">
                                                 <div className="logo">
-                                                    <a href="index.html"><img src="image/images/logo3.png" alt="#" /></a>
+                                                    <a href="index.html"><img src="image/images/logo3.png" style={{ maxWidth: '90%' }} alt="#" /></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                                    <div className="col-xl-10 col-lg-8 col-md-8 col-sm-9">
                                         <div className="menu-area">
                                             <div className="limit-box">
                                                 <nav className="main-menu ">
@@ -30,18 +30,7 @@ class Index extends React.Component {
                                                         <li className="active"> <a href="index.html">Trang Chủ</a> </li>
                                                         <li> <a href="#about">Giới Thiệu</a> </li>
                                                         <li> <a href="sanpham.html">Sản Phẩm</a> </li>
-                                                    </ul>
-                                                </nav>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                                        <div className="menu-area">
-                                            <div className="limit-box">
-                                                <nav className="main-menu ">
-                                                    <ul className="menu-area-main">
-                                                        <li> <a href="login.html">Đăng Nhập</a> </li>
-                                                        <li> <a href="register.html">Đăng Ký</a> </li>
+
                                                     </ul>
                                                 </nav>
                                             </div>
@@ -53,8 +42,12 @@ class Index extends React.Component {
                     </div>
                     {/* end header inner */}
                     {/* end header */}
-                    <Slide />
+
                 </header>
+                <div>
+                    <Slide />
+                </div>
+
 
                 <div id="about" className="about">
                     <div className="container-fluid">
@@ -67,7 +60,12 @@ class Index extends React.Component {
                                     lượng thuốc bảo vệ thực vật , nơi mà mọi người có thể yên tâm về chất lượng sản phẩm .Và cũng là nơi à
                                     người bán có thể
                                     giới thiệu sản phẩm của mình , và bắt buộc phải khai báo rõ ràng về sản phẩm của mình khi đăng ký lên
-            trang web. </p>
+                                    trang web.Là một trang web tốt nhất để những người nội trợ của Việt Nam tin tưởng sử dụng mà không phải lo
+            về thực phẩm bẩn và không rỏ nguồn gốc. </p>
+                                    <div>
+                                        <a className="moreabout" style={{ backgroundColor: 'transparent' }} href="gioithieu.html"> <button type="button" style={{ background: 'none' }}>Xem
+      Thêm...</button></a>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 padding_rl">
@@ -78,6 +76,7 @@ class Index extends React.Component {
                         </div>
                     </div>
                 </div>
+
                 <div id="vegetable" className="vegetable">
                     <div className="container">
                         <div className="row">
@@ -113,93 +112,97 @@ class Index extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div id="testimonial" className="clients">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-12">
-                                <div className="titlepage">
-                                    <h2>Nhận Xét Của Người Dùng</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="about">
-                    <div className="clients_red">
+
+
+                <div>
+                    <div id="testimonial" className="clients">
                         <div className="container">
-                            <div id="testimonial_slider" className="carousel slide" data-ride="carousel">
-                                {/* Indicators */}
-                                <ul className="carousel-indicators">
-                                    <li data-target="#testimonial_slider" data-slide-to={0} className />
-                                    <li data-target="#testimonial_slider" data-slide-to={1} className="active" />
-                                    <li data-target="#testimonial_slider" data-slide-to={2} className />
-                                </ul>
-                                {/* The slideshow */}
-                                <div className="carousel-inner">
-                                    <div className="carousel-item">
-                                        <div className="testomonial_section">
-                                            <div className="full testimonial_cont">
-                                                <div className="row">
-                                                    <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 pa_right">
-                                                        <div className="testomonial_img">
-                                                            <figure><img src="image/images/tes.jpg" alt="#" /></figure>
-                                                            <i><img src="image/images/test_con.png" alt="#" /></i>
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <div className="titlepage">
+                                        <h2>Nhận Xét Của Người Dùng</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="about">
+                        <div className="clients_red">
+                            <div className="container">
+                                <div id="testimonial_slider" className="carousel slide" data-ride="carousel">
+                                    {/* Indicators */}
+                                    <ul className="carousel-indicators">
+                                        <li data-target="#testimonial_slider" data-slide-to={0} className />
+                                        <li data-target="#testimonial_slider" data-slide-to={1} className="active" />
+                                        <li data-target="#testimonial_slider" data-slide-to={2} className />
+                                    </ul>
+                                    {/* The slideshow */}
+                                    <div className="carousel-inner">
+                                        <div className="carousel-item">
+                                            <div className="testomonial_section">
+                                                <div className="full testimonial_cont">
+                                                    <div className="row">
+                                                        <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 pa_right">
+                                                            <div className="testomonial_img">
+                                                                <figure><img src="image/images/tes.jpg" alt="#" /></figure>
+                                                                <i><img src="image/images/test_con.png" alt="#" /></i>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <div className="col-xl-9 col-lg-9 col-md-9 col-sm-12 pa_left">
-                                                        <div className="cross_inner">
-                                                            <h3>Mai Tiến<br /><strong className="ornage_color">cảm nhận</strong></h3>
-                                                            <p>Qúa tuyệt vời , đây là một trong những trang web về truy xuất nguồn gốc sản phẩm mà tôi thấy
-                                                            là
-                                                            tốt nhất
-                      </p>
+                                                        <div className="col-xl-9 col-lg-9 col-md-9 col-sm-12 pa_left">
+                                                            <div className="cross_inner">
+                                                                <h3>Mai Tiến<br /><strong className="ornage_color">cảm nhận</strong></h3>
+                                                                <p>Qúa tuyệt vời , đây là một trong những trang web về truy xuất nguồn gốc sản phẩm mà tôi thấy
+                                                                là
+                                                                tốt nhất
+                        </p>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div className="carousel-item active">
-                                        <div className="testomonial_section">
-                                            <div className="full center">
-                                            </div>
-                                            <div className="full testimonial_cont ">
-                                                <div className="row">
-                                                    <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 pa_right">
-                                                        <div className="testomonial_img">
-                                                            <figure><img src="image/images/tes.jpg" alt="#" /></figure>
-                                                            <i><img src="image/images/test_con.png" alt="#" /></i>
+                                        <div className="carousel-item active">
+                                            <div className="testomonial_section">
+                                                <div className="full center">
+                                                </div>
+                                                <div className="full testimonial_cont ">
+                                                    <div className="row">
+                                                        <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 pa_right">
+                                                            <div className="testomonial_img">
+                                                                <figure><img src="image/images/tes.jpg" alt="#" /></figure>
+                                                                <i><img src="image/images/test_con.png" alt="#" /></i>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <div className="col-xl-9 col-lg-9 col-md-9 col-sm-12 pa_left">
-                                                        <div className="cross_inner">
-                                                            <h3>Anh Tú<br /><strong className="ornage_color">cảm nhận</strong></h3>
-                                                            <p> Thật là hạnh phúc , từ khi có ứng dụng này tôi đã an tâm hơn khi đi lựa chọn thực phẩm cho
-                                                            người thân trong gia đình.
-                      </p>
+                                                        <div className="col-xl-9 col-lg-9 col-md-9 col-sm-12 pa_left">
+                                                            <div className="cross_inner">
+                                                                <h3>Anh Tú<br /><strong className="ornage_color">cảm nhận</strong></h3>
+                                                                <p> Thật là hạnh phúc , từ khi có ứng dụng này tôi đã an tâm hơn khi đi lựa chọn thực phẩm cho
+                                                                người thân trong gia đình.
+                        </p>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div className="carousel-item">
-                                        <div id="testomonial" className="testomonial_section">
-                                            <div className="full center">
-                                            </div>
-                                            <div className="full testimonial_cont ">
-                                                <div className="row">
-                                                    <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 pa_right">
-                                                        <div className="testomonial_img">
-                                                            <figure><img src="image/images/tes.jpg" alt="#" /></figure>
-                                                            <i><img src="image/images/test_con.png" alt="#" /></i>
+                                        <div className="carousel-item">
+                                            <div id="testomonial" className="testomonial_section">
+                                                <div className="full center">
+                                                </div>
+                                                <div className="full testimonial_cont ">
+                                                    <div className="row">
+                                                        <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 pa_right">
+                                                            <div className="testomonial_img">
+                                                                <figure><img src="image/images/tes.jpg" alt="#" /></figure>
+                                                                <i><img src="image/images/test_con.png" alt="#" /></i>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <div className="col-xl-9 col-lg-9 col-md-9 col-sm-12 pa_left">
-                                                        <div className="cross_inner">
-                                                            <h3>Phúc Hưng<br /><strong className="ornage_color">cảm nhận</strong></h3>
-                                                            <p>Qúa tuyệt , tôi đánh giá cao ứng dụng này.
-                      </p>
+                                                        <div className="col-xl-9 col-lg-9 col-md-9 col-sm-12 pa_left">
+                                                            <div className="cross_inner">
+                                                                <h3>Phúc Hưng<br /><strong className="ornage_color">cảm nhận</strong></h3>
+                                                                <p>Qúa tuyệt , tôi đánh giá cao ứng dụng này.
+                        </p>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -211,6 +214,7 @@ class Index extends React.Component {
                         </div>
                     </div>
                 </div>
+
 
                 <div className="footer ">
                     <div className="container">
