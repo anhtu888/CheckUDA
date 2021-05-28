@@ -8,6 +8,8 @@ import {
 import Index from "./TrangChu/Index";
 import App from "./App";
 import Producsp from "./Producsp";
+import About from "./About";
+import Qrcode from "./Qrcode";
 
 export default function PageRouter() {
     return (
@@ -32,6 +34,12 @@ export default function PageRouter() {
                     </Route>
                     <Route exact path="/">
                         <Index />
+                    </Route>
+                    <Route path="/about">
+                        <About />
+                    </Route>
+                    <Route path="/qr">
+                        <Qrcode />
                     </Route>
                     <Route path="/products-add">
                         <App />

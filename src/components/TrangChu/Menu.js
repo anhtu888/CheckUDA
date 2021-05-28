@@ -14,7 +14,7 @@ class Menu extends Component {
                                     <div className="full">
                                         <div className="center-desk">
                                             <div className="logo">
-                                                <a href="index.html"><img src="image/images/logo3.png" style={{ maxWidth: '90%' }} alt="#" /></a>
+                                                <a href="/"><img src="image/images/logo3.png" style={{ maxWidth: '90%' }} alt="#" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -24,8 +24,8 @@ class Menu extends Component {
                                         <div className="limit-box">
                                             <nav className="main-menu ">
                                                 <ul className="menu-area-main">
-                                                    <li className="active"> <a href="/">Trang Chủ</a> </li>
-                                                    <li> <a href="/">Giới Thiệu</a> </li>
+                                                    <li > <a href="/">Trang Chủ</a> </li>
+                                                    <li> <a href="/about">Giới Thiệu</a> </li>
                                                     <li> <a href="/products">Sản Phẩm</a> </li>
                                                 </ul>
                                             </nav>

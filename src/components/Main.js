@@ -6,7 +6,7 @@ class Main extends Component {
     render() {
         return (
             <div className="col-lg-12" >
-                <h1 style={{ textAlign: 'center' }} > Thêm Sản Phẩm </h1>
+                <h1 style={{ textAlign: 'center' }} > <span >Thêm Sản Phẩm</span> </h1>
                 <form onSubmit={
                     (event) => {
                         event.preventDefault()
@@ -22,16 +22,7 @@ class Main extends Component {
                                     (input) => { this.productName = input }
                                 }
                                 className=" form-control"
-                                placeholder="Tên Sản Phẩm"
-                                required />
-                        </div>
-                        <div className="form-group col-4" >
-                            <input id="productName" type="text"
-                                ref={
-                                    (input) => { this.productName = input }
-                                }
-                                className=" form-control"
-                                placeholder="Gía sản Phẩm"
+                                placeholder="Người Chăm Sóc"
                                 required />
                         </div>
                         <div className="form-group col-4" >
@@ -40,9 +31,17 @@ class Main extends Component {
                                     (input) => { this.productPrice = input }
                                 }
                                 className="form-control "
-                                placeholder="Nơi trồng"
+                                placeholder="Người Bán Sản Phẩm"
                                 required />
                         </div>
+                        <div className="form-group col-4" >
+                            <input type="text"
+
+                                className=" form-control"
+                                placeholder="Bảo Quản"
+                                required />
+                        </div>
+
                     </div>
                     <div className="row">
                         <div className="form-group col-4" >
@@ -51,16 +50,7 @@ class Main extends Component {
                                     (input) => { this.productName = input }
                                 }
                                 className=" form-control"
-                                placeholder="Ngày gieo trồng"
-                                required />
-                        </div>
-                        <div className="form-group col-4" >
-                            <input id="productName" type="text"
-                                ref={
-                                    (input) => { this.productName = input }
-                                }
-                                className=" form-control"
-                                placeholder="Tên người trồng"
+                                placeholder="Tên Sản Phẩm"
                                 required />
                         </div>
                         <div className="form-group col-4" >
@@ -69,20 +59,52 @@ class Main extends Component {
                                     (input) => { this.productPrice = input }
                                 }
                                 className="form-control "
+                                placeholder="Gía sản Phẩm"
+                                required />
+                        </div>
+                        <div className="form-group col-4" >
+                            <input type="text"
+
+                                className=" form-control"
+                                placeholder="Nơi Trồng"
+                                required />
+                        </div>
+
+                    </div>
+                    <div className="row">
+                        <div className="form-group col-4" >
+                            <input id="" type="text"
+
+                                className=" form-control"
+                                placeholder="Ngày gieo trồng"
+                                required />
+                        </div>
+                        <div className="form-group col-4" >
+                            <input id="" type="text"
+
+                                className=" form-control"
+                                placeholder="Ngày Thu Hoạch"
+                                required />
+                        </div>
+                        <div className="form-group col-4" >
+                            <input id="" type="text"
+
+                                className="form-control "
                                 placeholder="Đơn vị cung cấp"
                                 required />
                         </div>
-                        <div>
-                            <div className="form-group col-md-12"> <label> Hình ảnh của sản phẩm :</label>
-                                <form action="/action_page.php"> <input type="file" id="myFile" name="filename" /> </form>
-                                <div style={{ width: '200px', height: '300px', border: 'solid 1px' }}> </div>
-                            </div>
+
+                    </div>
+                    <div>
+                        <div className=""> <label> Hình ảnh của sản phẩm :</label>
+                            <form action="/action_page.php"> <input type="file" id="myFile" name="filename" /> </form>
+                            <div style={{ width: '200px', height: '300px', border: 'solid 1px' }}> </div>
                         </div>
                     </div>
                     <button type="submit"
                         className="btn btn-primary"  > Thêm sản phẩm </button>
                 </form >
-                <h1 className="produc-hot"><b>Danh Mục Sản Phẩm</b></h1>
+                <h1 className="produc-hot " style={{ textAlign: 'center' }}><b>Danh Mục Sản Phẩm</b></h1>
                 <table className="table" >
                     <thead >
                         <tr>

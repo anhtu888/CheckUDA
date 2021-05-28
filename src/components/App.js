@@ -4,6 +4,7 @@ import logo from '../logo.png';
 import './App.css';
 import Marketplace from '../abis/Marketplace.json'
 import Navbar from './Navbar'
+import Footer from './Footer'
 import Main from './Main'
 
 class App extends Component {
@@ -32,7 +33,7 @@ class App extends Component {
         const networkId = await web3.eth.net.getId()
         const networkData = Marketplace.networks[networkId]
         if (networkData) {
-            const marketplace =new web3.eth.Contract(Marketplace.abi, networkData.address)
+            const marketplace = new web3.eth.Contract(Marketplace.abi, networkData.address)
             this.setState({ marketplace })
             const productCount = await marketplace.methods.productCount().call()
             this.setState({ productCount })
@@ -83,7 +84,7 @@ class App extends Component {
             <div >
                 <Navbar account={this.state.account}
                 />
-                <div className="container-fluid mt-5" >
+                <div className="container mt-5" >
 
                     <div className="row" >
 
@@ -103,7 +104,9 @@ class App extends Component {
                         </main>
                     </div>
                 </div>
+                <Footer />
             </div>
+
         );
     }
 }
