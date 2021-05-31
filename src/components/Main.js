@@ -18,18 +18,14 @@ class Main extends Component {
                     <div className="row">
                         <div className="form-group col-4" >
                             <input id="productName" type="text"
-                                ref={
-                                    (input) => { this.productName = input }
-                                }
+
                                 className=" form-control"
                                 placeholder="Người Chăm Sóc"
                                 required />
                         </div>
                         <div className="form-group col-4" >
                             <input id="productPrice" type="text"
-                                ref={
-                                    (input) => { this.productPrice = input }
-                                }
+
                                 className="form-control "
                                 placeholder="Người Bán Sản Phẩm"
                                 required />
@@ -73,14 +69,14 @@ class Main extends Component {
                     </div>
                     <div className="row">
                         <div className="form-group col-4" >
-                            <input id="" type="text"
+                            <input id="" type="datetime-local"
 
                                 className=" form-control"
                                 placeholder="Ngày gieo trồng"
                                 required />
                         </div>
                         <div className="form-group col-4" >
-                            <input id="" type="text"
+                            <input id="" type="datetime-local"
 
                                 className=" form-control"
                                 placeholder="Ngày Thu Hoạch"
