@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import Menu from './TrangChu/Menu';
 import Slide from './TrangChu/Slide';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
 
 class Navbar extends Component {
 
@@ -17,7 +23,7 @@ class Navbar extends Component {
                 </div>
                 {/* ***** Preloader End ***** */}
                 {/* Header */}
-                <header className>
+                <header>
                     <nav className="navbar navbar-expand-lg">
                         <div className="container">
                             <a className="navbar-brand" href="/">
@@ -37,10 +43,10 @@ class Navbar extends Component {
                                         <a className="nav-link" href="about.html">Giới Thiệu</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="products.html">Sản Phẩm</a>
+                                        <a className="nav-link" href="/products">Sản Phẩm</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="contact.html">Thêm Sản Phẩm</a>
+                                        <a className="nav-link" href="/addsp">Thêm Sản Phẩm</a>
                                     </li>
                                 </ul>
                             </div>
