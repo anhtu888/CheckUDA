@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import IndexTrangChu from './components/TrangChu/Index';
 import PageRouter from './components/PageRouter';
 
+
 ReactDOM.render(<PageRouter />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
