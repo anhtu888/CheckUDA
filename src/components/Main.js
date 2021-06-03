@@ -62,7 +62,7 @@ class Main extends Component {
         return (
             <div className="col-lg-12">
                 <form onSubmit={this.onSubmit} >
-                    <div className="card">
+                    <div className="card" style={{ boxShadow: '5px 7px darkgrey' }}>
                         <div className="card-header">
                             <h1 style={{ textAlign: 'center' }} > <span >Thêm Sản Phẩm</span> </h1>
                         </div>
@@ -100,8 +100,9 @@ class Main extends Component {
                                         name="baoQuan"
                                         value={this.state.baoQuan}
                                         onChange={this.onChange}
+                                        placeholder="Bảo quản"
                                         className=" form-control"
-                                         />
+                                    />
                                 </div>
                                 <div className="form-group col-4" >
                                     <label>Người chăm sóc :</label>
@@ -123,8 +124,8 @@ class Main extends Component {
                                         placeholder="Vui lòng điền tên"
                                         required />
                                 </div>
-                                
-                                
+
+
                                 <div className="form-group col-4" >
                                     <label>Nơi trồng :</label>
                                     <input type="text"
@@ -133,7 +134,7 @@ class Main extends Component {
                                         className=" form-control"
                                         placeholder="Nơi Trồng"
                                         name="noiTrong"
-                                         />
+                                    />
                                 </div>
                                 <div className="form-group col-4" >
                                     <label>Ngày gieo trồng <span className="text-danger">*</span> :</label>
@@ -163,7 +164,7 @@ class Main extends Component {
                                         className="form-control "
                                         placeholder="Đơn vị cung cấp"
                                         name="donVi"
-                                         />
+                                    />
                                 </div>
 
                             </div>
@@ -178,7 +179,7 @@ class Main extends Component {
                         </div>
                     </div>
                 </form >
-                <h1 className="produc-hot " style={{ textAlign: 'center' }}><b>Danh Mục Sản Phẩm</b></h1>
+                <h1 className="produc-hot " style={{ textAlign: 'center', marginTop: '20px' }}><b>Danh Mục Sản Phẩm</b></h1>
                 <table className="table">
                     <thead >
                         <tr>
