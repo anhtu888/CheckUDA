@@ -10,6 +10,7 @@ import App from "./App";
 import Producsp from "./Producsp";
 import About from "./About";
 import Qrcode from "./Qrcode";
+import DetailProduct from "./DetailProduct";
 
 export default function PageRouter() {
     return (
@@ -44,6 +45,7 @@ export default function PageRouter() {
                     <Route path="/addsp">
                         <App />
                     </Route>
+                    <Route path='/edit/:id' component={ DetailProduct } />
                 </Switch>
             </div>
         </Router>

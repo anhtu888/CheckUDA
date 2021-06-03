@@ -15,7 +15,7 @@ class Menu extends Component {
                 </div>
                 {/* ***** Preloader End ***** */}
                 {/* Header */}
-                <header className>
+                <header>
                     <nav className="navbar navbar-expand-lg">
                         <div className="container">
                             <a className="navbar-brand" href="/">

@@ -1,12 +1,13 @@
+// edit.component.js
+
 import React, { Component } from 'react';
-import './Product.css';
 import axios from 'axios';
 
-class Main extends Component {
+export default class DetailProduct extends Component {
     constructor(props) {
         super(props);
         this.onSubmit = this.onSubmit.bind(this);
-        this.onChange = this.onChange.bind(this);
+
         this.state = {
             tenSanPham: '',
             giaCa: '',
@@ -20,13 +21,35 @@ class Main extends Component {
             hinhAnh: ''
         }
     }
-    onChange(event) {
+
+    componentDidMount() {
+        axios.get('http://localhost:4000/products/edit/'+this.props.match.params.id)
+            .then(response => {
+                this.setState({
+                    tenSanPham: response.data.tenSanPham,
+                    giaCa: response.data.giaCa,
+                    nguoiChamSoc: response.data.nguoiChamSoc,
+                    nguoiBanSp: response.data.nguoiBanSp,
+                    baoQuan: response.data.baoQuan,
+                    noiTrong: response.data.noiTrong,
+                    ngayGieoTrong: response.data.ngayGieoTrong,
+                    ngayThuHoach: response.data.ngayThuHoach,
+                    donVi: response.data.donVi,
+                    hinhAnh: response.data.hinhAnh
+                });
+            })
+            .catch(function (error) {
+                console.log(error);
+            })
+    }
+    onChange = (event) => {
         var target = event.target;
         var name = target.name;
         this.setState({
             [name]: target.value
         });
     }
+
     onSubmit(e) {
         e.preventDefault();
         const obj = {
@@ -41,33 +64,18 @@ class Main extends Component {
             donVi: this.state.donVi,
             hinhAnh: this.state.hinhAnh
         };
-        axios.post('http://localhost:4000/products/add', obj)
+        axios.post('http://localhost:4000/products/update/'+this.props.match.params.id, obj)
             .then(res => console.log(res.data));
 
-        this.setState({
-            tenSanPham: '',
-            giaCa: '',
-            nguoiChamSoc: '',
-            nguoiBanSp: '',
-            baoQuan: '',
-            noiTrong: '',
-            ngayGieoTrong: '',
-            ngayThuHoach: '',
-            donVi: '',
-            hinhAnh: ''
-        })
+        this.props.history.push('/index');
     }
 
     render() {
         return (
-            <div className="col-lg-12">
-                <form onSubmit={this.onSubmit} >
-                    <div className="card">
-                        <div className="card-header">
-                            <h1 style={{ textAlign: 'center' }} > <span >Thêm Sản Phẩm</span> </h1>
-                        </div>
-                        <div className="card-body">
-                            <div className="row">
+            <div style={{ marginTop: 10 }}>
+                <h3 align="center">Detail Products</h3>
+                <form onSubmit={this.onSubmit}>
+                <div className="row">
                                 <div className="form-group col-4" >
                                     <label>Tên sản phẩm <span className="text-danger">*</span> :</label>
                                     <input id="productName" type="text"
@@ -137,7 +145,7 @@ class Main extends Component {
                                 </div>
                                 <div className="form-group col-4" >
                                     <label>Ngày gieo trồng <span className="text-danger">*</span> :</label>
-                                    <input id="ngayGieoTrong" type="datetime-local"
+                                    <input id="ngayGieoTrong" type="text"
                                         onChange={this.onChange}
                                         value={this.state.ngayGieoTrong}
                                         className=" form-control"
@@ -147,7 +155,7 @@ class Main extends Component {
                                 </div>
                                 <div className="form-group col-4" >
                                     <label>Ngày thu hoạch <span className="text-danger">*</span> :</label>
-                                    <input id="ngayThuHoach" type="datetime-local"
+                                    <input id="ngayThuHoach" type="text"
                                         onChange={this.onChange}
                                         value={this.state.ngayThuHoach}
                                         className=" form-control"
@@ -172,50 +180,13 @@ class Main extends Component {
                                     <input type="file" id="myFile" name="filename" />
                                 </div>
                             </div>
-                        </div>
-                        <div className="card-footer">
-                            <button type="submit" className="btn btn-primary">Thêm sản phẩm </button>
-                        </div>
+                    <div className="form-group">
+                        <input type="submit"
+                               value="Update"
+                               className="btn btn-primary"/>
                     </div>
-                </form >
-                <h1 className="produc-hot " style={{ textAlign: 'center' }}><b>Danh Mục Sản Phẩm</b></h1>
-                <table className="table">
-                    <thead >
-                        <tr>
-                            <th scope="col" > ID</th>
-                            <th scope="col" > Tên Sản Phẩm </th>
-                            <th scope="col" > Gía Sản Phẩm </th>
-                            <th scope="col" > Chủ Sở Hữu </th>
-                            <th scope="col" >Mua</th>
-                        </tr>
-                    </thead>
-                    <tbody id="productList" > {
-                        this.props.products.map((product, key) => {
-                            return (<tr key={key} >
-                                <th scope="row" > {product.id.toString()} </th>
-                                <td > {product.name} </td>
-                                <td > {window.web3.utils.fromWei(product.price.toString(), 'Ether')}
-                        VND </td>
-                                <td > {product.owner} </td>
-                                <td > {!product.purchased ?
-                                    <button
-                                        name={product.id}
-                                        value={product.price}
-                                        onClick={
-                                            (event) => {
-                                                this.props.purchaseProduct(event.target.name, event.target.value)
-                                            }
-                                        } >
-                                        Mua </button> :
-                                    null
-                                } </td> </tr>
-                            )
-                        })
-                    } </tbody>
-                </table >
+                </form>
             </div>
-        );
+        )
     }
 }
-
-export default Main;
