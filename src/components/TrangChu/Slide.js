@@ -6,79 +6,29 @@ export default class Slide extends React.Component {
 
     render() {
         return (
-            <section id="slide" className="slide">
-                <div>
-                    <div >
-                        <OwlCarousel items={1}
-                            className="owl-theme"
-                            loop
-
-                            autoplay
-                            margin={8} >
-                            <div className="container padding_dd">
-                                <div className="row">
-                                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                        <div className="text-bg">
-                                            <span>Chào Mừng Tới Với ĐÔNG Á Check</span>
-                                            <h1>Kiểm Tra Nguồn Gốc Thực Phẩm</h1>
-                                            <p>Nhận biết thấy nỗi lo của mọi gia đình khi phải chọn lựa những loại thực phẩm tươi ngon mà vẫn
-                                            phải đảm bảo
-                                            vệ sinh anh toàn thực phẩm .Nên từ đó chúng tôi đã cho ra đời trang web ĐÔNG Á Check để mọi
-                                            người yên tâm
-                                            mua cái loại thực phẩm mà có thể biết xuấn xứ rõ ràng cảu loại thực phẩm đó </p>
-                                        </div>
-                                    </div>
-                                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                        <div className="images_box">
-                                            <figure><img src="image/images/img2.png" /></figure>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="container padding_dd">
-                                <div className="row">
-                                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                        <div className="text-bg">
-                                            <span>Chào Mừng Tới Với ĐÔNG Á Check</span>
-                                            <h1>Kiểm Tra Nguồn Gốc Thực Phẩm</h1>
-                                            <p>Nhận biết thấy nỗi lo của mọi gia đình khi phải chọn lựa những loại thực phẩm tươi ngon mà vẫn
-                                            phải đảm bảo
-                                            vệ sinh anh toàn thực phẩm .Nên từ đó chúng tôi đã cho ra đời trang web ĐÔNG Á Check để mọi
-                                            người yên tâm
-                      mua cái loại thực phẩm mà có thể biết xuấn xứ rõ ràng cảu loại thực phẩm đó </p>
-                                        </div>
-                                    </div>
-                                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                        <div className="images_box">
-                                            <figure><img src="image/images/img2.png" /></figure>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="container padding_dd">
-                                <div className="row">
-                                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                        <div className="text-bg">
-                                            <span>Chào Mừng Tới Với ĐÔNG Á Check</span>
-                                            <h1>Kiểm Tra Nguồn Gốc Thực Phẩm</h1>
-                                            <p>Nhận biết thấy nỗi lo của mọi gia đình khi phải chọn lựa những loại thực phẩm tươi ngon mà vẫn
-                                            phải đảm bảo
-                                            vệ sinh anh toàn thực phẩm .Nên từ đó chúng tôi đã cho ra đời trang web ĐÔNG Á Check để mọi
-                                            người yên tâm
-                      mua cái loại thực phẩm mà có thể biết xuấn xứ rõ ràng cảu loại thực phẩm đó </p>
-                                        </div>
-                                    </div>
-                                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                        <div className="images_box">
-                                            <figure><img src="image/images/img2.png" /></figure>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </OwlCarousel>
+            <div className="banner header-text">
+                <div className="owl-banner owl-carousel">
+                    <div className="banner-item-01">
+                        <div className="text-content">
+                            <h4>Đông Á Check</h4>
+                            <h2>Truy Xuất Nguồn Gốc</h2>
+                        </div>
+                    </div>
+                    <div className="banner-item-02">
+                        <div className="text-content">
+                            <h4>Đông Á Check</h4>
+                            <h2>Nguồn Gốc Sản Phẩm Rõ Ràng</h2>
+                        </div>
+                    </div>
+                    <div className="banner-item-03">
+                        <div className="text-content">
+                            <h4>Đông Á Check</h4>
+                            <h2>Yên Tâm Về Xuất Xứ</h2>
+                        </div>
                     </div>
                 </div>
-            </section >
+            </div>
+
         )
     }
 }

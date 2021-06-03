@@ -41,7 +41,7 @@ export default function PageRouter() {
                     <Route path="/qr">
                         <Qrcode />
                     </Route>
-                    <Route path="/products-add">
+                    <Route path="/addsp">
                         <App />
                     </Route>
                 </Switch>

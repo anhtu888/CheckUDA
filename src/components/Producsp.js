@@ -11,151 +11,124 @@ class Producsp extends Component {
       <div>
         <header>
           <Menu />
-
-          {/* header inner */}
-          <div className="container fluid">
-            <div className="row produc-sp">
-              <div className="col-xl-6">
-                <h1 className="produc-hot" ><b>Danh Mục Sản Phẩm</b></h1>
-              </div>
-              <div className="col-xl-6 "><a href="/products-add" className="btn btn-primary" style={{ float: 'right', marginTop: '15px' }}>
-                Thêm sản phẩm
-          </a>
-              </div>
-            </div>
-            <div className="row" style={{ paddingBottom: '30px' }}>
-              <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 card" style={{ width: '18rem' }}>
-                <img className="card-img-top" src="image/images/spp.1png.png" alt="Card image cap" />
-                <div className="card-body">
-                  <h4 className="card-title">Dưa Hấu</h4>
-                  <a href="/qr" className="btn btn-primary">Mua Hàng</a>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 card" style={{ width: '18rem' }}>
-                <img className="card-img-top" src="image/images/s6.jpg" alt="Card image cap" />
-                <div className="card-body">
-                  <h5 className="card-title">Cải Ngọt</h5>
-                  <a href="#" className="btn btn-primary">Mua Hàng</a>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 card" style={{ width: '18rem' }}>
-                <img className="card-img-top" src="image/images/sp3.png" alt="Card image cap" />
-                <div className="card-body">
-                  <h5 className="card-title">Xoài</h5>
-                  <p className="card-text" />
-                  <a href="#" className="btn btn-primary">Mua Hàng</a>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 card" style={{ width: '18rem' }}>
-                <img className="card-img-top" src="image/images/sp4.jpg" alt="Card image cap" />
-                <div className="card-body">
-                  <h5 className="card-title">Ôỉ Ruột Trắng</h5>
-                  <p className="card-text" />
-                  <a href="#" className="btn btn-primary">Mua Hàng</a>
-                </div>
-              </div>
-
-            </div>
-            <div className="row " style={{ paddingBottom: '30px' }}>
-              <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 card" style={{ width: '18rem' }}>
-                <img className="card-img-top" src="image/images/sp5.jpg" alt="Card image cap" />
-                <div className="card-body">
-                  <h5 className="card-title">Thanh Long</h5>
-                  <a href="#" className="btn btn-primary">Mua Hàng</a>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 card" style={{ width: '18rem' }}>
-                <img className="card-img-top" src="image/images/sp7.jpg" alt="Card image cap" />
-                <div className="card-body">
-                  <h5 className="card-title">Măng Cụt</h5>
-                  <a href="#" className="btn btn-primary">Mua Hàng</a>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 card" style={{ width: '18rem' }}>
-                <img className="card-img-top" src="image/images/sp8.png" alt="Card image cap" />
-                <div className="card-body">
-                  <h5 className="card-title">Chôm Chôm</h5>
-                  <a href="#" className="btn btn-primary">Mua Hàng</a>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 card" style={{ width: '18rem' }}>
-                <img className="card-img-top" src="image/images/sp8.jpg" alt="Card image cap" />
-                <div className="card-body">
-                  <h5 className="card-title">Sầu Riêng</h5>
-                  <a href="#" className="btn btn-primary">Mua Hàng</a>
+        </header>
+        <div className="page-heading products-heading header-text">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="text-content">
+                  <h4>Đông Á Check</h4>
+                  <h2>Danh Sách Các Sản Phẩm</h2>
                 </div>
               </div>
             </div>
-            <div>
-              <div className="row" style={{ paddingBottom: '30px' }}>
-                <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 card" style={{ width: '18rem' }}>
-                  <img className="card-img-top" src="image/images/spp.1png.png" alt="Card image cap" />
-                  <div className="card-body">
-                    <h4 className="card-title">Dưa Hấu</h4>
-                    <a href="chitiet.html" className="btn btn-primary">Mua Hàng</a>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 card" style={{ width: '18rem' }}>
-                  <img className="card-img-top" src="image/images/s6.jpg" alt="Card image cap" />
-                  <div className="card-body">
-                    <h5 className="card-title">Cải Ngọt</h5>
-                    <a href="#" className="btn btn-primary">Mua Hàng</a>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 card" style={{ width: '18rem' }}>
-                  <img className="card-img-top" src="image/images/sp3.png" alt="Card image cap" />
-                  <div className="card-body">
-                    <h5 className="card-title">Xoài</h5>
-                    <p className="card-text" />
-                    <a href="#" className="btn btn-primary">Mua Hàng</a>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 card" style={{ width: '18rem' }}>
-                  <img className="card-img-top" src="image/images/sp4.jpg" alt="Card image cap" />
-                  <div className="card-body">
-                    <h5 className="card-title">Ôỉ Ruột Trắng</h5>
-                    <p className="card-text" />
-                    <a href="#" className="btn btn-primary">Mua Hàng</a>
-                  </div>
-                </div>
-              </div>
-              <div className="row " style={{ paddingBottom: '30px' }}>
-                <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 card" style={{ width: '18rem' }}>
-                  <img className="card-img-top" src="image/images/sp5.jpg" alt="Card image cap" />
-                  <div className="card-body">
-                    <h5 className="card-title">Thanh Long</h5>
-                    <a href="#" className="btn btn-primary">Mua Hàng</a>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 card" style={{ width: '18rem' }}>
-                  <img className="card-img-top" src="image/images/sp7.jpg" alt="Card image cap" />
-                  <div className="card-body">
-                    <h5 className="card-title">Măng Cụt</h5>
-                    <a href="#" className="btn btn-primary">Mua Hàng</a>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 card" style={{ width: '18rem' }}>
-                  <img className="card-img-top" src="image/images/sp8.png" alt="Card image cap" />
-                  <div className="card-body">
-                    <h5 className="card-title">Chôm Chôm</h5>
-                    <a href="#" className="btn btn-primary">Mua Hàng</a>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 card" style={{ width: '18rem' }}>
-                  <img className="card-img-top" src="image/images/sp8.jpg" alt="Card image cap" />
-                  <div className="card-body">
-                    <h5 className="card-title">Sầu Riêng</h5>
-                    <a href="#" className="btn btn-primary">Mua Hàng</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
           </div>
-          <footr>
-            <Footer />
-          </footr>
-        </header></div>
+        </div>
+        <div className="products">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="filters">
+                  <ul>
+                    <li className="active" data-filter="*">Tất cả sản Phẩm</li>
+                    <li data-filter=".des">Mới nhất</li>
+                    <li data-filter=".dev">Bảo Quản Lâu</li>
+                    <li data-filter=".gra">Bảo Quản Nhanh</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-md-12">
+                <div className="filters-content">
+                  <div className="row grid">
+                    <div className="col-lg-4 col-md-4 all des">
+                      <div className="product-item">
+                        <a href="#"><img src="assets/images/i1.jpg" alt="" /></a>
+                        <div className="down-content">
+                          <a href="chitiet.html">
+                            <h4>Xoài</h4>
+                          </a>
+                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-4 all dev">
+                      <div className="product-item">
+                        <a href="#"><img src="assets/images/i2.jpg" alt="" /></a>
+                        <div className="down-content">
+                          <a href="#">
+                            <h4>Ôỉ</h4>
+                          </a>
+                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-4 all gra">
+                      <div className="product-item">
+                        <a href="#"><img src="assets/images/i3.jpg" alt="" /></a>
+                        <div className="down-content">
+                          <a href="#">
+                            <h4>Thanh Long</h4>
+                          </a>
+                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-4 all gra">
+                      <div className="product-item">
+                        <a href="#"><img src="assets/images/i4.jpg" alt="" /></a>
+                        <div className="down-content">
+                          <a href="#">
+                            <h4>Măng Cụt </h4>
+                          </a>
+                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-4 all dev">
+                      <div className="product-item">
+                        <a href="#"><img src="assets/images/i5.jpg" alt="" /></a>
+                        <div className="down-content">
+                          <a href="#">
+                            <h4>Sầu Riêng</h4>
+                          </a>
+                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-4 all des">
+                      <div className="product-item">
+                        <a href="#"><img src="assets/images/i6.jpg" alt="" /></a>
+                        <div className="down-content">
+                          <a href="#">
+                            <h4>Chôm Chôm</h4>
+                          </a>
+                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-12">
+                <ul className="pages">
+                  <li className="active"><a href="#">1</a></li>
+                  <li ><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#"><i className="fa fa-angle-double-right" /></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <Footer />
+
+
+
+
+
+      </div>
+
 
     )
   }

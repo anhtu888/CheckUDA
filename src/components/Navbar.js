@@ -1,45 +1,55 @@
 import React, { Component } from 'react';
+import Menu from './TrangChu/Menu';
+import Slide from './TrangChu/Slide';
 
 class Navbar extends Component {
 
     render() {
         return (
-            <header>
-                {/* header inner */}
-                <div className="header-top">
-                    <div className="header" style={{ background: 'none' }}>
-                        <div className="container-fluid">
-                            <div className="row">
-                                <div className="col-xl-2 col-lg-4 col-md-4 col-sm-3 col logo_section">
-                                    <div className="full">
-                                        <div className="center-desk">
-                                            <div className="logo">
-                                                <a href="/"><img src="image/images/logo3.png" style={{ maxWidth: '90%' }} alt="#" /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-xl-10 col-lg-8 col-md-8 col-sm-9">
-                                    <div className="menu-area">
-                                        <div className="limit-box">
-                                            <nav className="main-menu ">
-                                                <ul className="menu-area-main">
-                                                    <li className="active"> <a href="/">Trang Chủ</a> </li>
-                                                    <li> <a href="/about">Giới Thiệu</a> </li>
-                                                    <li> <a href="/products">Sản Phẩm</a> </li>
-                                                </ul>
-                                            </nav>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <div>
+                {/* ***** Preloader Start ***** */}
+                <div id="preloader">
+                    <div className="jumper">
+                        <div />
+                        <div />
+                        <div />
                     </div>
                 </div>
-                {/* end header inner */}
-                {/* end header */}
+                {/* ***** Preloader End ***** */}
+                {/* Header */}
+                <header className>
+                    <nav className="navbar navbar-expand-lg">
+                        <div className="container">
+                            <a className="navbar-brand" href="/">
+                                <h2>Đông Á <em>Check</em></h2>
+                            </a>
+                            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                                <span className="navbar-toggler-icon" />
+                            </button>
+                            <div className="collapse navbar-collapse" id="navbarResponsive">
+                                <ul className="navbar-nav ml-auto">
+                                    <li className="nav-item active">
+                                        <a className="nav-link" href="index.html">Trang Chủ
+                          <span className="sr-only">(current)</span>
+                                        </a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="about.html">Giới Thiệu</a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="products.html">Sản Phẩm</a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="contact.html">Thêm Sản Phẩm</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+                <Slide />
+            </div>
 
-            </header>
         );
     }
 }
