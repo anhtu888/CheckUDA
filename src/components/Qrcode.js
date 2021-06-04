@@ -9,8 +9,6 @@ class Qrcode extends Component {
         return (
             <div>
                 <Menu />
-
-
                 <div>
                     <div className="page-heading products-heading header-text">
                         <div className="container">
@@ -61,8 +59,6 @@ class Qrcode extends Component {
                         </div>
                     </div>
                 </div>
-
-
                 <footr>
                     <Footer />
                 </footr>

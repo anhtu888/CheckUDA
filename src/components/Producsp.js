@@ -92,7 +92,7 @@ class Producsp extends Component {
           </div>
           
         </div>
-        <Footer/>
+        {/* <Footer/> */}
       </>
     );
   }
