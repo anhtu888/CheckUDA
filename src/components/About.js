@@ -25,7 +25,7 @@ class About extends Component {
                             <div className="row">
                                 <div className="col-md-12">
                                     <div className="section-heading">
-                                        <h2>Đông Á Check.</h2>
+                                        <h2>Đông Á Check</h2>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
@@ -35,7 +35,7 @@ class About extends Component {
                                 </div>
                                 <div className="col-md-6">
                                     <div className="left-content">
-                                        <h4>Who we are &amp; What we do?</h4>
+                                        <h4>Đông Á Check là gì? &amp; Có chức năng gì?</h4>
                                         <p>Là một trang web có thể truy xuất nguồn gốc trực tiếp của các loại sản phẩm có trên trang web hoặc có thể
                                         truy xuất bằng phương thức
                                         quét mã QRcode thông qua những mã QR có đi theo từng sản phẩm , đó là tính năng nhanh gọn , tiết kiệm thời
@@ -172,7 +172,7 @@ class About extends Component {
                                             <h4>Dự án nỗi bật</h4>
                                             <p>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia quaerat.
               </p>
-                                            <a href="#" className="filled-button">Read More</a>
+                                            <a href="/about" className="filled-button">Xem Thêm...</a>
                                         </div>
                                     </div>
                                 </div>
@@ -185,7 +185,7 @@ class About extends Component {
                                             <h4>Khách hàng tiềm năng</h4>
                                             <p>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia quaerat.
               </p>
-                                            <a href="#" className="filled-button">Details</a>
+                                            <a href="/about" className="filled-button">Liên Hệ</a>
                                         </div>
                                     </div>
                                 </div>
@@ -198,7 +198,7 @@ class About extends Component {
                                             <h4>Hướng đi tương lai</h4>
                                             <p>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia quaerat.
               </p>
-                                            <a href="#" className="filled-button">Read More</a>
+                                            <a href="/about" className="filled-button">Xem Thêm...</a>
                                         </div>
                                     </div>
                                 </div>

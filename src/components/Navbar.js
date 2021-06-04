@@ -35,12 +35,12 @@ class Navbar extends Component {
                             <div className="collapse navbar-collapse" id="navbarResponsive">
                                 <ul className="navbar-nav ml-auto">
                                     <li className="nav-item active">
-                                        <a className="nav-link" href="index.html">Trang Chủ
-                          <span className="sr-only">(current)</span>
+                                        <a className="nav-link" href="/">Trang Chủ
+                <span className="sr-only">(current)</span>
                                         </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="about.html">Giới Thiệu</a>
+                                        <a className="nav-link" href="/about">Giới Thiệu</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" href="/products">Sản Phẩm</a>
@@ -53,7 +53,19 @@ class Navbar extends Component {
                         </div>
                     </nav>
                 </header>
-                <Slide />
+                <div className="page-heading contact-heading header-text">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-12">
+                                <div className="text-content">
+                                    <h4>Đông Á Check</h4>
+                                    <h2>Danh Sách Các Sản Phẩm</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         );

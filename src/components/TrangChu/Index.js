@@ -20,7 +20,7 @@ class Index extends React.Component {
                                 <div className="col-md-12">
                                     <div className="section-heading">
                                         <h2>Danh Sách Sản Phẩm</h2>
-                                        <a href="products.html">Xem tất cả <i className="fa fa-angle-right" /></a>
+                                        <a href="/products">Xem tất cả <i className="fa fa-angle-right" /></a>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
@@ -120,7 +120,7 @@ class Index extends React.Component {
                                             <li>Quy trình bảo quản của sản phẩm.</li>
                                             <li>Có thể thêm sản phẩm của chính bạn.</li>
                                         </ul>
-                                        <a href="about.html" className="filled-button">Read More</a>
+                                        <a href="/about" className="filled-button">Xem Thêm...</a>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
@@ -144,7 +144,7 @@ class Index extends React.Component {
                 </p>
                                             </div>
                                             <div className="col-md-4">
-                                                <a href="#" className="filled-button">Thêm Sản Phẩm</a>
+                                                <a href="/addsp" className="filled-button">Thêm Sản Phẩm</a>
                                             </div>
                                         </div>
                                     </div>
