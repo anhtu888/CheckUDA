@@ -60,6 +60,7 @@ class Main extends Component {
 
     render() {
         return (
+
             <div className="col-lg-12">
                 <form onSubmit={this.onSubmit} >
                     <div className="card" style={{ boxShadow: '5px 7px darkgrey' }}>
