@@ -64,10 +64,10 @@ class Index extends React.Component {
                                                 <a href="index.html">Trang Chủ</a>
                                             </li>
                                             <li className="mega-menu">
-                                                <a href="#">Giới Thiệu</a>
+                                                <a href="#about">Giới Thiệu</a>
                                             </li>
                                             <li className="has-child">
-                                                <a href="shop.html">Sản Phẩm</a>
+                                                <a href="#product">Sản Phẩm</a>
                                             </li>
 
 
@@ -76,7 +76,7 @@ class Index extends React.Component {
                                     <div className="menu-main right" style={{ float: 'right', width: 'auto' }}>
                                         <ul>
                                             <li className="has-child">
-                                                <a href="index.html">Thêm Sản Phẩm</a>
+                                                <a href="#">Thêm Sản Phẩm</a>
                                             </li>
 
 

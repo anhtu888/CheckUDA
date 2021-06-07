@@ -6,7 +6,7 @@ export default class Index extends React.Component {
     render() {
         return (
 
-            <div>
+            <div id='#about'>
                 <section id="reach-to" className="welcome-part home-icon">
                     <div className="icon-default">
                         <a href="#reach-to" className="scroll"><img src="asset/web/images//scroll-arrow.png" alt="" /></a>

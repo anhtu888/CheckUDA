@@ -8,6 +8,8 @@ import IndexTrangChu from './components/TrangChu/Index';
 import PageRouter from './components/PageRouter';
 import App1 from './components/App1';
 import IndexAdd from './components/Website/Add/Index'
+import Index from './components/Website/Add/Index';
+
 
 
 
