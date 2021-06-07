@@ -27,8 +27,18 @@ class Main extends Component {
             [name]: target.value
         });
     }
+    onChangeImage = (e)=>{
+        let files = e.target.files;
+        console.log(files);
+        let reader = new FileReader();
+        reader.readAsDataURL(files[0]);
+    }
     onSubmit(e) {
         e.preventDefault();
+        const name = this.productName.value
+        const price = window.web3.utils.toWei(this.productPrice.value.toString(), 'Ether')
+        this.props.createProduct(name, price)
+
         const obj = {
             tenSanPham: this.state.tenSanPham,
             giaCa: this.state.giaCa,
@@ -55,12 +65,13 @@ class Main extends Component {
             ngayThuHoach: '',
             donVi: '',
             hinhAnh: ''
-        })
+        });
+        
     }
 
     render() {
         return (
-            <div className="col-lg-12">
+            <div className="col-lg-8 offset-2">
                 <form onSubmit={this.onSubmit} >
                     <div className="card" style={{ boxShadow: '5px 7px darkgrey' }}>
                         <div className="card-header">
@@ -68,7 +79,7 @@ class Main extends Component {
                         </div>
                         <div className="card-body">
                             <div className="row">
-                                <div className="form-group col-4" >
+                                <div className="form-group col-6" >
                                     <label>Tên sản phẩm <span className="text-danger">*</span> :</label>
                                     <input id="productName" type="text"
                                         ref={
@@ -81,7 +92,7 @@ class Main extends Component {
                                         name="tenSanPham"
                                         required />
                                 </div>
-                                <div className="form-group col-4" >
+                                <div className="form-group col-6" >
                                     <label>Giá cả <span className="text-danger">*</span> :</label>
                                     <input id="productPrice" type="number"
                                         ref={
@@ -94,17 +105,27 @@ class Main extends Component {
                                         placeholder="Gía sản Phẩm"
                                         required />
                                 </div>
-                                <div className="form-group col-4" >
-                                    <label>Bảo quản :</label>
-                                    <input type="text"
-                                        name="baoQuan"
-                                        value={this.state.baoQuan}
+                                <div className="form-group col-6" >
+                                    <label>Ngày gieo trồng <span className="text-danger">*</span> :</label>
+                                    <input id="ngayGieoTrong" type="date"
                                         onChange={this.onChange}
-                                        placeholder="Bảo quản"
+                                        value={this.state.ngayGieoTrong}
                                         className=" form-control"
-                                    />
+                                        placeholder="Ngày gieo trồng"
+                                        name="ngayGieoTrong"
+                                        required />
                                 </div>
-                                <div className="form-group col-4" >
+                                <div className="form-group col-6" >
+                                    <label>Ngày thu hoạch <span className="text-danger">*</span> :</label>
+                                    <input id="ngayThuHoach" type="date"
+                                        onChange={this.onChange}
+                                        value={this.state.ngayThuHoach}
+                                        className=" form-control"
+                                        placeholder="Ngày Thu Hoạch"
+                                        name="ngayThuHoach"
+                                        required />
+                                </div>
+                                <div className="form-group col-6" >
                                     <label>Người chăm sóc :</label>
                                     <input id="nguoiChamSoc" type="text"
                                         className="form-control"
@@ -114,7 +135,7 @@ class Main extends Component {
                                         value={this.state.nguoiChamSoc}
                                     />
                                 </div>
-                                <div className="form-group col-4" >
+                                <div className="form-group col-6" >
                                     <label>Người bán <span className="text-danger">*</span> :</label>
                                     <input id="nguoiBanSp" type="text"
                                         name="nguoiBanSp"
@@ -124,39 +145,7 @@ class Main extends Component {
                                         placeholder="Vui lòng điền tên"
                                         required />
                                 </div>
-
-
-                                <div className="form-group col-4" >
-                                    <label>Nơi trồng :</label>
-                                    <input type="text"
-                                        onChange={this.onChange}
-                                        value={this.state.noiTrong}
-                                        className=" form-control"
-                                        placeholder="Nơi Trồng"
-                                        name="noiTrong"
-                                    />
-                                </div>
-                                <div className="form-group col-4" >
-                                    <label>Ngày gieo trồng <span className="text-danger">*</span> :</label>
-                                    <input id="ngayGieoTrong" type="datetime-local"
-                                        onChange={this.onChange}
-                                        value={this.state.ngayGieoTrong}
-                                        className=" form-control"
-                                        placeholder="Ngày gieo trồng"
-                                        name="ngayGieoTrong"
-                                        required />
-                                </div>
-                                <div className="form-group col-4" >
-                                    <label>Ngày thu hoạch <span className="text-danger">*</span> :</label>
-                                    <input id="ngayThuHoach" type="datetime-local"
-                                        onChange={this.onChange}
-                                        value={this.state.ngayThuHoach}
-                                        className=" form-control"
-                                        placeholder="Ngày Thu Hoạch"
-                                        name="ngayThuHoach"
-                                        required />
-                                </div>
-                                <div className="form-group col-4" >
+                                <div className="form-group col-6" >
                                     <label>Đơn vị :</label>
                                     <input id="donVi" type="text"
                                         onChange={this.onChange}
@@ -166,11 +155,36 @@ class Main extends Component {
                                         name="donVi"
                                     />
                                 </div>
-
+                                <div className="form-group col-6" >
+                                    <label>Nơi trồng :</label>
+                                    <input type="text"
+                                        onChange={this.onChange}
+                                        value={this.state.noiTrong}
+                                        className=" form-control"
+                                        placeholder="Nơi Trồng"
+                                        name="noiTrong"
+                                    />
+                                </div>
+                                <div className="form-group col-6" >
+                                    <label>Bảo quản :</label>
+                                    {/* <input type="text"
+                                        name="baoQuan"
+                                        value={this.state.baoQuan}
+                                        onChange={this.onChange}
+                                        placeholder="Bảo quản"
+                                        className=" form-control"
+                                    /> */}
+                                    <textarea type="text" name="baoQuan" className=" form-control" rows="3" onChange={this.onChange}></textarea>
+                                </div>
+                                <div className="form-group col-6" >
+                                    <label>Giai đoạn sinh trưởng :</label>
+                                    <textarea type="text" className=" form-control" rows="3" ></textarea>
+                                </div>
                             </div>
                             <div>
-                                <div className=""> <label> Hình ảnh của sản phẩm :</label>
-                                    <input type="file" id="myFile" name="filename" />
+                                <div className="form-group"> 
+                                    <label> Hình ảnh của sản phẩm :</label>
+                                    <input type="file" id="myFile" name="filename"  onChange={this.onChangeImage}/>
                                 </div>
                             </div>
                         </div>
