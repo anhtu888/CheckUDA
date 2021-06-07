@@ -1393,7 +1393,7 @@ textarea {
     float: left;
     width: 100%;
     position: relative;
-    background: #1e662e;
+    background: #15a034;
     padding: 15px 0;
     -webkit-transition: all 0.5s ease 0s;
     -moz-transition: all 0.5s ease 0s;
@@ -1554,7 +1554,7 @@ textarea {
     width: 100%;
     background:white;
     position: relative;
-    border-bottom: 6px solid #1b1b29;
+    border-bottom: 6px solid #15a034;
 }
 
 .menu-main {
