@@ -1,25 +1,17 @@
 import React from 'react';
-import IndexHeader from './Website/Header/Index';
-import Slide from './Website/Slide';
-import IndexAbout from './Website/About/Index';
-import IndexProducts from './Website/Products/Index';
-import IndexMember from './Website/Member/Index';
-import IndexFooter from './Website/Footer/Index'
-
-
+import Header from './Web/Header';
+import HomeMain from './Web/HomeMain';
+import MenuFooter from './Web/MenuFooter';
+import IndexFooter from './Web/Footer';
 
 export default class App1 extends React.Component {
     render() {
         return (
             <>
-                <IndexHeader />
-
-                <Slide />
-                <IndexAbout />
-                <IndexProducts />
-                <IndexMember />
+                <Header />
+                <HomeMain />
+                <MenuFooter />
                 <IndexFooter />
-
             </>
         )
     }
