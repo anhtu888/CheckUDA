@@ -23,7 +23,7 @@ class TableRow extends Component {
                   <div>
                     <QRCode
                         id='qrcode'
-                        value='https://www.facebook.com/DaiTien1007/'
+                        value={"http://localhost:3000/edit/"+this.props.obj._id}
                         size={190}
                         level={'L'}
                         includeMargin={true}
