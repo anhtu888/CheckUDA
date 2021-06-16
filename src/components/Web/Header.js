@@ -36,7 +36,7 @@ export default class Header extends React.Component {
                                             <span>Truy xuất nguồn gốc sản phẩm</span>
                                         </div>
                                     </div>
-                                   
+
                                 </div>
                             </div>
                         </div>
