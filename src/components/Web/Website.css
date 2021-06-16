@@ -698,7 +698,7 @@ label{
 /* 11. TESTIMONIAL */
 
 #testimonial{
-	background-image: url(../images/testimonial-bg.jpg);
+	/* background-image: url(../images/testimonial-bg.jpg); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1194,7 +1194,7 @@ ul.content-flickr li {
 .border-bg{
 	height: 5px;
 	width: 100%;
-	background: url("../images/border-slide.png") repeat-x;
+	/* background: url("../images/border-slide.png") repeat-x; */
 }
 .navbar-nav .submenu{
 	visibility: hidden;
@@ -1378,7 +1378,7 @@ span.r-more a:hover{
 }
 span.info-sale {
 	position: absolute;
-	background: url("sale-top.png") no-repeat;
+	/* background: url("sale-top.png") no-repeat; */
 	width: 159px;
 	height: 137px;
 	font-size: 30px;
@@ -1399,14 +1399,14 @@ span.in-sale {
 	top:60px;
 }
 span.info-sale.small{
-	background: url("small-sale.png") no-repeat;
+	/* background: url("small-sale.png") no-repeat; */
 	font-size: 12px;
 	width: 33px;
 	height: 33px;
 	line-height: 27px;
 }
 span.info-sale.small.new{
-	background: url("small-new.png") no-repeat;
+	/* background: url("small-new.png") no-repeat; */
 }
 .blog .portfolio-item .thumbnail{
 	width: 30%;
@@ -1491,9 +1491,6 @@ button#searchsubmit .fa-search{
 .ct-info.clearfix {
 	padding: 10px;
 	color: #fff;
-}
-.navbar-fixed-top .head-mid{
-	background-image: url('./asset/web/images/slide-1.jpg') !important;
 }
 .cate-readmore.right a{
 	font-size: 12px;
@@ -1687,7 +1684,7 @@ ul.hotline li.tit a{
 	border-top: 1px solid #cacaca;
 	display: block;
 	height: 5px;
-	background: url("../images/border-slide.png") repeat-x;
+	/* background: url("../images/border-slide.png") repeat-x; */
 	text-align: center;
 }
 .prodtop .st-border{
@@ -1972,11 +1969,11 @@ background:#05a667
 	color: #35240d;
 	padding-left: 10px;
 	display: block;
-	background: url('../images/icon_blog.png') no-repeat 0px 10px;
+	/* background: url('../images/icon_blog.png') no-repeat 0px 10px; */
 }
 .list-article li a:hover{
 	color:#1DC483;
-	background: url('icon_blog_hv.png') no-repeat 0px 10px;
+	/* background: url('icon_blog_hv.png') no-repeat 0px 10px; */
 }
 .banner img{
 	width: 100%;
@@ -2047,7 +2044,7 @@ background:#05a667
 	border-top: 1px solid #cacaca;
 	display: block;
 	height: 5px;
-	background: url("../images/border-slide.png") repeat-x;
+	/* background: url("../images/border-slide.png") repeat-x; */
 	text-align: center;
 }
 .prodtop .owl-controls .owl-buttons {
@@ -2292,12 +2289,12 @@ background:#05a667
 	top: -34px;
 }
 .template-product .owl-theme .owl-controls .owl-buttons .owl-prev{
-	background: url('left1.png') no-repeat !important;
+	/* background: url('left1.png') no-repeat !important; */
 	width: 17px;
 	height: 16px;
 }
 .template-product .owl-theme .owl-controls .owl-buttons .owl-next{
-	background: url('right1.png') no-repeat !important;
+	/* background: url('right1.png') no-repeat !important; */
 	width: 17px;
 	height: 16px;
 }
