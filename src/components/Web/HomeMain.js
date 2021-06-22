@@ -10,7 +10,7 @@ export default class HomeMain extends React.Component {
     render() {
         return (
             <section className="home-main">
-                <HMprodtop/>
+                <HMprodtop />
                 <div className="banner-top">
                     <div className="container hidden-xs">
                         <div className="row">
@@ -20,7 +20,7 @@ export default class HomeMain extends React.Component {
                                         <a href="/collections/all"><img src="asset/web/images/banner_left.png" className="img-responsive" /></a>
                                     </div>
                                     <div className="col-md-5 col-sm-5">
-                                        <a href="/collections/all"><img src="asset/web/images/banner_right.jfif" className="img-responsive" /></a>
+                                        <a href="/collections/all"><img src="asset/web/images/lb.png" className="img-responsive" /></a>
                                     </div>
                                 </div>
                             </div>
@@ -31,13 +31,13 @@ export default class HomeMain extends React.Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-9 col-xs-12 col-sm-12">
-                                <HMProductNews/>
+                                <HMProductNews />
                                 <div className="st-border" />
-                                <HMProductSales/>
+                                <HMProductSales />
                             </div>
                             <aside className="sidebar col-right col-md-3 col-xs-12 col-sm-12">
-                                <HMCategory/>
-                                <HMNews/>
+                                <HMCategory />
+                                <HMNews />
                                 <div className="block policy">
                                     <div className="policy-content">
                                         <div className="policy-1">
@@ -59,12 +59,12 @@ export default class HomeMain extends React.Component {
                         <div className="st-border" />
                         <div className="row">
                             <div className="col-md-12 hidden-sm hidden-xs">
-                                <HMCardGifts/>
+                                <HMCardGifts />
                             </div>
                         </div>
                     </div>
                 </div>
-                <HMFeedCustomer/>
+                <HMFeedCustomer />
             </section>
         )
     }

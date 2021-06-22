@@ -25,6 +25,7 @@ export default class HMprodtop extends React.Component {
                                                         <div className="pricebox">
                                                             <p className="special-price"><small>Giá: </small>40.000₫</p>
                                                             <p className="old-price"><small>Giá: </small>45.000₫</p>
+                                                            <a href="/qrcode" className="btn btn-primary">Chi tiết</a>
                                                         </div>
 
                                                     </div>

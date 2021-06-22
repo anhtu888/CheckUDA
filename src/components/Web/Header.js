@@ -68,22 +68,22 @@ export default class Header extends React.Component {
                                 </ul>
                                 <div className="col-md-10 col-sm-12 col-xs-12 col-md-offset-1">
                                     <ul className="nav navbar-nav navbar-right">
-                                        <li className="current"><a href="/">Trang chủ</a></li>
-                                        <li ><a href="/gioi-thieu">Giới thiệu</a></li>
+                                        <li ><a href="/">Trang chủ</a></li>
+                                        <li ><a href="/about">Giới thiệu</a></li>
                                         <li >
-                                            <a href="/collections/all">Sản phẩm <i className="fa fa-angle-down" /></a>
+                                            <a href="/product">Sản phẩm <i className="fa fa-angle-down" /></a>
                                             <ul className="submenu">
-                                                <li><a href="/hoa-qua-sach">Hoa quả sạch</a></li>
-                                                <li><a href="/rau-sach">Rau sạch</a></li>
-                                                <li><a href="/thit-sach">Thịt sạch</a></li>
-                                                <li><a href="/thuy-hai-san-sach">Thuỷ - Hải sản sạch</a></li>
-                                                <li><a href="/gao-hat-kho">Gạo - Hạt khô</a></li>
+                                                <li><a href="/product1">Hoa quả sạch</a></li>
+                                                <li><a href="/product2">Rau sạch</a></li>
+                                                <li><a href="/product3">Thịt sạch</a></li>
+                                                <li><a href="/product4">Thuỷ - Hải sản sạch</a></li>
+                                                <li><a href="/product5">Gạo - Hạt khô</a></li>
                                             </ul>
                                         </li>
-                                        <li ><a href="/tin-tuc">Tin tức</a></li>
-                                        <li ><a href="/tu-van">Tư vấn</a></li>
-                                        <li ><a href="/dieu-khoan">Dịch vụ</a></li>
-                                        <li ><a href="/lien-he">Liên hệ</a></li>
+                                        <li ><a href="/new">Tin tức</a></li>
+                                        <li ><a href="/tuvan">Tư vấn</a></li>
+                                        <li ><a href="/dichvu">Dịch vụ</a></li>
+                                        <li ><a href="/lienhe">Liên hệ</a></li>
                                     </ul>
                                 </div>
                             </div>
