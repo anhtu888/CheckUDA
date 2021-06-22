@@ -1,4 +1,4 @@
-// persons.route.js
+// categrories.route.js
 
 const express = require('express');
 const productRoutes = express.Router();
@@ -45,16 +45,17 @@ productRoutes.route('/update/:id').post(function (req, res) {
             res.status(404).send("data is not found");
         else {
             console.log(product);
-            product.tenSanPham = req.body.tenSanPham;
-            product.giaCa = req.body.giaCa;
-            product.nguoiChamSoc = req.body.nguoiChamSoc;
-            product.nguoiBanSp = req.body.nguoiBanSp;
-            product.baoQuan = req.body.baoQuan;
-            product.noiTrong = req.body.noiTrong;
-            product.ngayGieoTrong = req.body.ngayGieoTrong;
-            product.ngayThuHoach = req.body.ngayThuHoach;
-            product.donVi = req.body.donVi;
-            product.hinhAnh = req.body.hinhAnh;
+            product.name = req.body.name;
+            product.price = req.body.status;
+            product.carer = req.body.carer;
+            product.seller = req.body.seller;
+            product.conservation = req.body.conservation;
+            product.sowingDate = req.body.sowingDate;
+            product.harvestDate = req.body.harvestDate;
+            product.unit = req.body.unit;
+            product.plantingPlace = req.body.plantingPlace;
+            product.image = req.body.image;
+            product.description = req.body.description;
 
             product.save().then(business => {
                 res.json('Update complete');
@@ -68,7 +69,7 @@ productRoutes.route('/update/:id').post(function (req, res) {
 
 // Defined delete | remove | destroy route
 productRoutes.route('/delete/:id').get(function (req, res) {
-    Product.findByIdAndRemove({_id: req.params.id}, function(err, person){
+    Product.findByIdAndRemove({_id: req.params.id}, function(err, product){
         if(err) res.json(err);
         else res.json('Successfully removed');
     });

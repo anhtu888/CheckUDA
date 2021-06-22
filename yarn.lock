@@ -4983,7 +4983,7 @@
     "pbkdf2" "^3.0.9"
     "randombytes" "^2.0.1"
 
-"bitcore-lib@^8.20.1", "bitcore-lib@^8.22.2":
+"bitcore-lib@^8.22.2", "bitcore-lib@^8.25.10":
   "integrity" "sha512-MyHpSg7aFRHe359RA/gdkaQAal3NswYZTLEuu0tGX1RGWXAYN9i/24fsjPqVKj+z0ua+gzAT7aQs0KiKXWCgKA=="
   "resolved" "https://registry.npmjs.org/bitcore-lib/-/bitcore-lib-8.25.10.tgz"
   "version" "8.25.10"
@@ -15115,7 +15115,7 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
-"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^15.5.3 || ^16.0.0 || ^17.0.0", "react@^16 || ^17", "react@^16.0.0", "react@^16.14.0", "react@^16.8.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@>= 16", "react@>=0.14.0", "react@>=15", "react@>=15.0.0", "react@>=16.0.0", "react@>=16.3.0", "react@>=16.3.2", "react@>=16.6.0", "react@>=16.8.0", "react@16.8.4":
+"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^15.5.3 || ^16.0.0 || ^17.0.0", "react@^16 || ^17", "react@^16.0.0", "react@^16.14.0", "react@^16.8.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@>= 16", "react@>=0.14.0", "react@>=15", "react@>=15.0.0", "react@>=16.0.0", "react@>=16.3.0", "react@>=16.3.2", "react@>=16.6.0", "react@>=16.8.0", "react@16.14.0", "react@16.8.4":
   "integrity" "sha512-0GQ6gFXfUH7aZcjGVymlPOASTuSjlQL4ZtVC5YKH+3JL6bBLCVO21DknzmaPlI90LN253ojj02nsapy+j7wIjg=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.8.4.tgz"
   "version" "16.8.4"

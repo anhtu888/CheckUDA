@@ -1,20 +1,27 @@
-// business.model.js
-
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 // Define collection and schema for Business
 let Products = new Schema({
-    tenSanPham: { type: String },
-    giaCa: { type: Number },
-    nguoiChamSoc: { type: String },
-    nguoiBanSp:{ type: String },
-    baoQuan:{ type: String },
-    noiTrong:{ type: String },
-    ngayGieoTrong:{ type: Date, default: Date.now },
-    ngayThuHoach:{ type: Date, default: Date.now},
-    donVi:{ type: String },
-    hinhAnh:{ type:String }
+    name: { type: String },
+    price: { type: Number },
+    //Người chăm sóc
+    carer:{ type: String },
+    //Người bán
+    seller:{ type: String },
+    //Bảo quản
+    conservation:{type: String},
+    //ngày gieo trồng
+    sowingDate:{type: Date},
+    //ngày thu hoạch
+    harvestDate:{type: Date},
+    //Đơn vị
+    unit:{type: String},
+    //Nơi trồng
+    plantingPlace:{ type: String},
+    image:{type:String},
+    description:{type:String}
+
 }, {
     collection: 'products'
 });
