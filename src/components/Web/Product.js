@@ -2,7 +2,6 @@ import React from "react"
 import Header from "./Header"
 import Footer from "./Footer"
 import MenuFooter from "./MenuFooter"
-import { Button } from "bootstrap"
 export default class Product extends React.Component {
     render() {
         return (
@@ -45,7 +44,6 @@ export default class Product extends React.Component {
                                                                     <div className="pricebox">
                                                                         <p className="special-price"> <small>Giá: </small>100.000₫</p>
                                                                         <p className="old-price"><small>Giá: </small>150.000₫</p>
-
                                                                     </div>
 
                                                                 </div>
@@ -387,7 +385,7 @@ export default class Product extends React.Component {
                                         </div>
                                     </div>
                                     <div className="block banner hidden-sm hidden-xs">
-                                        <a href="/collections/all"><img src="asset/web/images/block-banner.png" alt="block-banner" /></a>
+                                        <a href="/collections/all"><img src="//bizweb.dktcdn.net/100/053/074/themes/67956/assets/block-banner.png?1564585298508" alt="block-banner" /></a>
                                     </div>
                                 </aside>
                             </div>

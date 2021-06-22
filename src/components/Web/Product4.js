@@ -44,6 +44,7 @@ export default class Product4 extends React.Component {
                                                                     <div className="pricebox">
                                                                         <p className="special-price"> <small>Giá: </small>100.000₫</p>
                                                                         <p className="old-price"><small>Giá: </small>150.000₫</p>
+                                                                        <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                                     </div>
 
                                                                 </div>
@@ -89,6 +90,7 @@ export default class Product4 extends React.Component {
                                                                 <div className="pricebox">
                                                                     <p className="special-price"> <small>Giá: </small>200.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>250.000₫</p>
+                                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                                 </div>
 
                                                             </div>
@@ -115,6 +117,7 @@ export default class Product4 extends React.Component {
                                                                 <div className="pricebox">
                                                                     <p className="special-price"> <small>Giá: </small>85.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>105.000₫</p>
+                                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                                 </div>
 
                                                             </div>
@@ -141,6 +144,7 @@ export default class Product4 extends React.Component {
                                                                 <div className="pricebox">
                                                                     <p className="special-price"> <small>Giá: </small>50.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>70.000₫</p>
+                                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                                 </div>
 
                                                             </div>
@@ -167,6 +171,34 @@ export default class Product4 extends React.Component {
                                                                 <div className="pricebox">
                                                                     <p className="special-price"> <small>Giá: </small>150.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>170.000₫</p>
+                                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="item col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                                    <div className="prodgrid">
+                                                        <div className="prodimg">
+                                                            <div className="sale-label sale-top-right">-
+                                                                19% <i className="fa fa-star" /></div>
+                                                            <div className="qrcode ">
+                                                                <img src="asset/web/images/qr.png" alt="Mã QR code" />
+                                                            </div>
+                                                            <a href="/tom-hum-loai-1" title="Tôm hùm loại 1">
+                                                                <img src="//bizweb.dktcdn.net/thumb/medium/100/053/074/products/tom.jpg?v=1456496954320" className="img-responsive" alt="Tôm hùm loại 1" />
+                                                            </a>
+                                                        </div>
+                                                        <div className="prodinfo">
+                                                            <a href="/tom-hum-loai-1" title="Tôm hùm loại 1">
+                                                                <h2>Tôm hùm loại 1</h2>
+                                                            </a>
+                                                            <div className="prodaction clearfix">
+                                                                <div className="pricebox">
+                                                                    <p className="special-price"> <small>Giá: </small>85.000₫</p>
+                                                                    <p className="old-price"><small>Giá: </small>105.000₫</p>
+                                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                                 </div>
 
                                                             </div>

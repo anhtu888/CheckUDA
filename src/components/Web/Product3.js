@@ -44,6 +44,7 @@ export default class Product3 extends React.Component {
                                                                     <div className="pricebox">
                                                                         <p className="special-price"> <small>Giá: </small>120.000₫</p>
                                                                         <p className="old-price"><small>Giá: </small>150.000₫</p>
+                                                                        <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                                     </div>
 
                                                                 </div>
@@ -89,6 +90,7 @@ export default class Product3 extends React.Component {
                                                                 <div className="pricebox">
                                                                     <p className="special-price"> <small>Giá: </small>30.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>35.000₫</p>
+                                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                                 </div>
 
                                                             </div>
@@ -115,6 +117,7 @@ export default class Product3 extends React.Component {
                                                                 <div className="pricebox">
                                                                     <p className="special-price"> <small>Giá: </small>85.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>105.000₫</p>
+                                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                                 </div>
 
                                                             </div>
@@ -141,6 +144,7 @@ export default class Product3 extends React.Component {
                                                                 <div className="pricebox">
                                                                     <p className="special-price"> <small>Giá: </small>250.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>270.000₫</p>
+                                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                                 </div>
 
                                                             </div>
@@ -167,6 +171,7 @@ export default class Product3 extends React.Component {
                                                                 <div className="pricebox">
                                                                     <p className="special-price"> <small>Giá: </small>95.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>120.000₫</p>
+                                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                                 </div>
 
                                                             </div>
@@ -193,6 +198,34 @@ export default class Product3 extends React.Component {
                                                                 <div className="pricebox">
                                                                     <p className="special-price"> <small>Giá: </small>250.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>270.000₫</p>
+                                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="item col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                                    <div className="prodgrid">
+                                                        <div className="prodimg">
+                                                            <div className="sale-label sale-top-right">-
+                                                                19% <i className="fa fa-star" /></div>
+                                                            <div className="qrcode ">
+                                                                <img src="asset/web/images/qr.png" alt="Mã QR code" />
+                                                            </div>
+                                                            <a href="/thit-heo-ba-chi" title="Thịt lợn ba chỉ sạch">
+                                                                <img src="//bizweb.dktcdn.net/thumb/medium/100/053/074/products/lonbachi.jpg?v=1456498408320" className="img-responsive" alt="Thịt lợn ba chỉ sạch" />
+                                                            </a>
+                                                        </div>
+                                                        <div className="prodinfo">
+                                                            <a href="/thit-heo-ba-chi" title="Thịt lợn ba chỉ sạch">
+                                                                <h2>Thịt lợn ba chỉ sạch</h2>
+                                                            </a>
+                                                            <div className="prodaction clearfix">
+                                                                <div className="pricebox">
+                                                                    <p className="special-price"> <small>Giá: </small>85.000₫</p>
+                                                                    <p className="old-price"><small>Giá: </small>105.000₫</p>
+                                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                                 </div>
 
                                                             </div>

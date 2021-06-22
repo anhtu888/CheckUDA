@@ -46,7 +46,11 @@ export default class Product1 extends React.Component {
                                                                     <div className="pricebox">
                                                                         <p className="special-price"> <small>Giá: </small>59.000₫</p>
                                                                         <p className="old-price"><small>Giá: </small>95.000₫</p>
-                                                                        <a href="/qrcode" className="btn btn-success">Chi tiết</a>
+
+
+
+                                                                        <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
+
                                                                     </div>
 
                                                                 </div>
@@ -92,7 +96,11 @@ export default class Product1 extends React.Component {
                                                                 <div className="pricebox">
                                                                     <p className="special-price"> <small>Giá: </small>25.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>27.000₫</p>
-                                                                    <a href="/qrcode" className="btn btn-success">Chi tiết</a>
+
+
+
+                                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
+
                                                                 </div>
 
                                                             </div>
@@ -119,7 +127,11 @@ export default class Product1 extends React.Component {
                                                                 <div className="pricebox">
                                                                     <p className="special-price"> <small>Giá: </small>25.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>30.000₫</p>
-                                                                    <a href="/qrcode" className="btn btn-success">Chi tiết</a>
+
+
+
+                                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
+
                                                                 </div>
 
                                                             </div>
@@ -146,7 +158,9 @@ export default class Product1 extends React.Component {
                                                                 <div className="pricebox">
                                                                     <p className="special-price"> <small>Giá: </small>30.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>35.000₫</p>
-                                                                    <a href="/qrcode" className="btn btn-success">Chi tiết</a>
+
+
+                                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                                 </div>
 
                                                             </div>
@@ -173,7 +187,11 @@ export default class Product1 extends React.Component {
                                                                 <div className="pricebox">
                                                                     <p className="special-price"> <small>Giá: </small>40.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>45.000₫</p>
-                                                                    <a href="/qrcode" className="btn btn-success">Chi tiết</a>
+
+
+
+                                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
+
                                                                 </div>
 
                                                             </div>
@@ -200,7 +218,11 @@ export default class Product1 extends React.Component {
                                                                 <div className="pricebox">
                                                                     <p className="special-price"> <small>Giá: </small>25.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>45.000₫</p>
-                                                                    <a href="/qrcode" className="btn btn-success">Chi tiết</a>
+
+
+
+                                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
+
                                                                 </div>
 
                                                             </div>
@@ -227,16 +249,20 @@ export default class Product1 extends React.Component {
                                                                 <div className="pricebox">
                                                                     <p className="special-price"> <small>Giá: </small>30.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>35.000₫</p>
-                                                                    <a href="/qrcode" className="btn btn-success">Chi tiết</a>
+
+
+                                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                                 </div>
 
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
                                 <aside className="sidebar col-right col-md-3 col-xs-12 col-sm-12">
                                     <div className="service-content clearfix hidden-sm hidden-xs">
@@ -309,6 +335,7 @@ export default class Product1 extends React.Component {
                                     </div>
                                 </aside>
                             </div>
+
                         </div>
                     </section>
                     {/* End Two columns content */}

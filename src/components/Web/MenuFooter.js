@@ -10,27 +10,33 @@ export default class MenuFooter extends React.Component {
                         </button>
                         <ul id="mobile-footer" className="hidden-lg hidden-md">
                             <li className="current"><a href="/">Trang chủ</a></li>
-                            <li ><a href="/gioi-thieu">Giới thiệu</a></li>
+                            <li ><a href="/about">Giới thiệu</a></li>
                             <li >
-                                <a href="/collections/all">Sản phẩm</a>
+                                <a href="/product">Sản phẩm</a>
                             </li>
-                            <li ><a href="/tin-tuc">Tin tức</a></li>
-                            <li ><a href="/tu-van">Tư vấn</a></li>
-                            <li ><a href="/dieu-khoan">Dịch vụ</a></li>
-                            <li ><a href="/lien-he">Liên hệ</a></li>
+                            <li ><a href="/new">Tin tức</a></li>
+                            <li ><a href="/tuvan">Tư vấn</a></li>
+                            <li ><a href="/dichvu">Dịch vụ</a></li>
+                            <li ><a href="/contat">Liên hệ</a></li>
                         </ul>
                         <div className="col-md-10 col-sm-12 col-xs-12 col-md-offset-1">
                             <ul className="nav navbar-nav navbar-right">
                                 <li ><a href="/">Trang chủ</a></li>
                                 <li ><a href="/about">Giới thiệu</a></li>
                                 <li >
+
                                     <a href="/product">Sản phẩm </a>
+
+
 
                                 </li>
                                 <li ><a href="/new">Tin tức</a></li>
                                 <li ><a href="/tuvan">Tư vấn</a></li>
                                 <li ><a href="/dichvu">Dịch vụ</a></li>
-                                <li ><a href="/lienhe">Liên hệ</a></li>
+
+
+
+
                             </ul>
                         </div>
                     </div>

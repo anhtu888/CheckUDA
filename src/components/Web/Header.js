@@ -50,9 +50,9 @@ export default class Header extends React.Component {
                                 </button>
                                 <ul id="mobile">
                                     <li className="current"><a href="/">Trang chủ</a></li>
-                                    <li ><a href="/gioi-thieu">Giới thiệu</a></li>
+                                    <li ><a href="/about">Giới thiệu</a></li>
                                     <li >
-                                        <a href="/collections/all">Sản phẩm <i className="fa fa-angle-down" /></a>
+                                        <a href="/about/all">Sản phẩm <i className="fa fa-angle-down" /></a>
                                         <ul className="submenu" style={{ display: 'none' }}>
                                             <li><a href="/hoa-qua-sach">Hoa quả sạch</a></li>
                                             <li><a href="/rau-sach">Rau sạch</a></li>
@@ -83,7 +83,11 @@ export default class Header extends React.Component {
                                         <li ><a href="/new">Tin tức</a></li>
                                         <li ><a href="/tuvan">Tư vấn</a></li>
                                         <li ><a href="/dichvu">Dịch vụ</a></li>
+
                                         <li ><a href="/lienhe">Liên hệ</a></li>
+
+
+
                                     </ul>
                                 </div>
                             </div>

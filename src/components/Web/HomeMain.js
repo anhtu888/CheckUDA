@@ -20,7 +20,11 @@ export default class HomeMain extends React.Component {
                                         <a href="/collections/all"><img src="asset/web/images/banner_left.png" className="img-responsive" /></a>
                                     </div>
                                     <div className="col-md-5 col-sm-5">
-                                        <a href="/collections/all"><img src="asset/web/images/lb.png" className="img-responsive" /></a>
+
+
+
+                                        <a href="/collections/all"><img src="asset/web/images/lg.png" className="img-responsive" /></a>
+
                                     </div>
                                 </div>
                             </div>

@@ -7,14 +7,17 @@ export default class Qrma extends React.Component {
         return (
             <>
                 <Header />
-                <div>
+                <div style={{ background: "white" }}>
                     <div className="page-heading products-heading header-text">
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-12">
                                     <div className="text-content">
 
-                                        <h2 style={{ textAlign: 'center' }}>Chi Tiết Sản Phẩm</h2>
+
+
+                                        <h2 style={{ textAlign: "center" }}>Chi Tiết Sản Phẩm</h2>
+
                                     </div>
                                 </div>
                             </div>
@@ -24,7 +27,7 @@ export default class Qrma extends React.Component {
                         <div>
                             <h4 style={{ textAlign: 'center', marginTop: '20px' }}>Người chăm sóc : Nguyễn Đại Mai Tiến</h4>
                         </div>
-                        <div style={{ width: '100%', height: '50px', backgroundColor: 'green', marginTop: '20px' }}>
+                        <div style={{ width: '100%', height: '50px', backgroundColor: '#1dc483', marginTop: '20px', borderRadius: "30px" }}>
                             <h5 style={{ textAlign: 'center', paddingTop: '10px', color: 'white' }}>Giai Đoạn Sinh Trưởng</h5>
                         </div>
                         <div style={{ textAlign: 'center', marginTop: '20px' }}>
@@ -35,7 +38,7 @@ export default class Qrma extends React.Component {
                             <h6 style={{ lineHeight: '35px' }}>Tuyển trái &nbsp; &nbsp; &nbsp;&nbsp; <span>: 5-6-2021</span></h6>
                             <h6 style={{ lineHeight: '35px' }}>Thu Hoạch &nbsp; &nbsp; &nbsp;&nbsp; <span>: 8-7-2021</span></h6>
                         </div>
-                        <div style={{ width: '100%', height: '50px', backgroundColor: 'green', marginTop: '20px' }}>
+                        <div style={{ width: '100%', height: '50px', backgroundColor: '#1dc483', marginTop: '20px', borderRadius: "30px" }}>
                             <h5 style={{ textAlign: 'center', paddingTop: '10px', color: 'white' }}>Bảo Quản</h5>
                         </div>
                         <div style={{ textAlign: 'center', marginTop: '20px' }}>
@@ -43,16 +46,20 @@ export default class Qrma extends React.Component {
                             <h6 style={{ lineHeight: '35px' }}>10-15 Độ(C) &nbsp; &nbsp; &nbsp;&nbsp;:7-10 ngày </h6>
                             <h6 style={{ lineHeight: '35px' }}>15-20 Độ(C) &nbsp; &nbsp; &nbsp;&nbsp;:5-7 ngày </h6>
                         </div>
-                        <div style={{ width: '100%', height: '50px', backgroundColor: 'green', marginTop: '20px' }}>
+                        <div style={{ width: '100%', height: '50px', backgroundColor: '#1dc483', marginTop: '20px', borderRadius: "30px" }}>
                             <h5 style={{ textAlign: 'center', paddingTop: '10px', color: 'white' }}>Chứng Chỉ-Chứng Nhân</h5>
                         </div>
                         <div style={{ textAlign: 'center', marginTop: '20px' }}>
                             <p style={{ lineHeight: '35px' }}>Số chứng nhận UDA</p>
                             <h6 style={{ lineHeight: '35px' }}>UDA-0021</h6>
                             <p style={{ lineHeight: '35px' }}>Chứng chỉ UDA</p>
-                            <h6 style={{ lineHeight: '35px' }}>UDA Xoài</h6>
+
+
+
+                            <h6 style={{ lineHeight: '35px' }}>UDA </h6>
+
                         </div>
-                        <div style={{ width: '100%', height: '50px', backgroundColor: 'green', marginTop: '20px' }}>
+                        <div style={{ width: '100%', height: '50px', backgroundColor: '#1dc483', marginTop: '20px', borderRadius: "30px" }}>
                             <h5 style={{ textAlign: 'center', paddingTop: '10px', color: 'white' }}>Nơi Trồng : Thuộc trang trại đại học Đông Á (UDA)</h5>
                         </div>
                     </div>
