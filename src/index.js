@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import PageRouter from './PageRouter';
-import Product1 from './components/Web/Product1'
+import Contact from './components/Web/Contact'
 ReactDOM.render(
   <React.StrictMode>
     <PageRouter />

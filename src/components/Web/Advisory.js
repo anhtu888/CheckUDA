@@ -25,19 +25,16 @@ export default class News extends React.Component {
                                         <div className="site-content" id="primary">
                                             <div role="main" id="content">
                                                 <article className="blog_entry clearfix wow bounceInUp animated">
-                                                    <div className="col-md-5 col-sm-5 col-xs-12 no-padding">
+                                                    <div style={{ marginBottom: "50px" }} className=" col-md-5 col-sm-5 col-xs-12 no-padding">
                                                         <div className="featured-thumb">
-                                                            <a href="/tu-van-mua-hai-san-tuoi-song"><img className="blog-thumb" alt="blog-img4" src="//bizweb.dktcdn.net/thumb/large/100/053/074/articles/tv3.jpg?v=1458122246673" /></a>
+                                                            <a href="/tu-van-mua-hai-san-tuoi-song"><img style={{ maxWidth: "100%" }} className="blog-thumb" alt="blog-img4" src="//bizweb.dktcdn.net/thumb/large/100/053/074/articles/tv3.jpg?v=1458122246673" /></a>
                                                         </div>
                                                     </div>
                                                     <div className="col-md-7 col-sm-7 col-xs-12 no-padding-right">
                                                         <div className="entry-content">
                                                             <div className="blog_entry-header-inner">
                                                                 <h2 className="blog_entry-title"> <a rel="bookmark" href="/tu-van-mua-hai-san-tuoi-song">Tư vấn mua hải sản tươi sống</a> </h2>
-                                                                <p>
-                                                                    Bởi LV Team
-                                                                    <time className="entry-date">(16/03/2016)</time>
-                                                                </p>
+
                                                             </div>
                                                             <div className="entry-content">
                                                                 Nói chung các loại hải sản đều có giá trị dinh dưỡng cao, giàu đạm, các axit  amin, axit béo omega 3, ngoài ra còn có nhiều canxi, photpho, sắt... Trong 100g cua biển cung cấp 103 Kcal, 17,5 g protein, 141 mg canxi, 191 mg photpho, 3,8...
@@ -47,19 +44,16 @@ export default class News extends React.Component {
                                                     </div>
                                                 </article>
                                                 <article className="blog_entry clearfix wow bounceInUp animated">
-                                                    <div className="col-md-5 col-sm-5 col-xs-12 no-padding">
+                                                    <div style={{ marginBottom: "50px" }} className="col-md-5 col-sm-5 col-xs-12 no-padding">
                                                         <div className="featured-thumb">
-                                                            <a href="/meo-chon-thit-ngon-bao-dam-chat-luong"><img className="blog-thumb" alt="blog-img4" src="//bizweb.dktcdn.net/thumb/large/100/053/074/articles/tv2.jpg?v=1458122141497" /></a>
+                                                            <a href="/meo-chon-thit-ngon-bao-dam-chat-luong"><img style={{ maxWidth: "100%" }} className="blog-thumb" alt="blog-img4" src="//bizweb.dktcdn.net/thumb/large/100/053/074/articles/tv2.jpg?v=1458122141497" /></a>
                                                         </div>
                                                     </div>
                                                     <div className="col-md-7 col-sm-7 col-xs-12 no-padding-right">
                                                         <div className="entry-content">
                                                             <div className="blog_entry-header-inner">
                                                                 <h2 className="blog_entry-title"> <a rel="bookmark" href="/meo-chon-thit-ngon-bao-dam-chat-luong">Mẹo chọn thịt ngon, bảo đảm chất lượng</a> </h2>
-                                                                <p>
-                                                                    Bởi LV Team
-                                                                    <time className="entry-date">(16/03/2016)</time>
-                                                                </p>
+
                                                             </div>
                                                             <div className="entry-content">
                                                                 Heo, bò, gà, vịt là các loại thịt phổ biến và dễ chế biến trong bữa cơm gia đình. Tuy nhiên với tình trạng thực phẩm nhiễm khuẩn, kém chất lượng tràn lan thị trường hiện nay làm sao để chọn được loại thịt an toàn?
@@ -72,17 +66,14 @@ export default class News extends React.Component {
                                                 <article className="blog_entry clearfix wow bounceInUp animated">
                                                     <div className="col-md-5 col-sm-5 col-xs-12 no-padding">
                                                         <div className="featured-thumb">
-                                                            <a href="/cach-chon-hoa-qua-tuoi-ngon"><img className="blog-thumb" alt="blog-img4" src="//bizweb.dktcdn.net/thumb/large/100/053/074/articles/tv.jpg?v=1458110049303" /></a>
+                                                            <a href="/cach-chon-hoa-qua-tuoi-ngon"><img style={{ maxWidth: "100%" }} className="blog-thumb" alt="blog-img4" src="//bizweb.dktcdn.net/thumb/large/100/053/074/articles/tv.jpg?v=1458110049303" /></a>
                                                         </div>
                                                     </div>
                                                     <div className="col-md-7 col-sm-7 col-xs-12 no-padding-right">
                                                         <div className="entry-content">
                                                             <div className="blog_entry-header-inner">
                                                                 <h2 className="blog_entry-title"> <a rel="bookmark" href="/cach-chon-hoa-qua-tuoi-ngon">Cách chọn hoa quả tươi ngon</a> </h2>
-                                                                <p>
-                                                                    Bởi LV Team
-                                                                    <time className="entry-date">(16/03/2016)</time>
-                                                                </p>
+
                                                             </div>
                                                             <div className="entry-content">
                                                                 Khi mua hoa quả, bạn không thể bóc bỏ vỏ hoặc cắt, gọt ra, nhìn vào phần bên trong để lựa trái ngon.

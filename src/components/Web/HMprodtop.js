@@ -26,11 +26,7 @@ export default class HMprodtop extends React.Component {
                                                             <p className="special-price"><small>Giá: </small>40.000₫</p>
                                                             <p className="old-price"><small>Giá: </small>45.000₫</p>
                                                         </div>
-                                                        <div className="action">
-                                                            <div className="arrival-mask">
-                                                                <a href="/bo-vo-san" className="btnsubmit add-cart"><span><i className="fa fa-shopping-cart" /> Mua hàng</span></a>
-                                                            </div>
-                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div></form>
@@ -61,13 +57,7 @@ export default class HMprodtop extends React.Component {
                                                                         <p className="special-price"> <small>Giá: </small>30.000₫</p>
                                                                         <p className="old-price"><small>Giá: </small>35.000₫</p>
                                                                     </div>
-                                                                    <div className="action">
-                                                                        <form action="/cart/add" method="post" className="variants" id="product-actions-1308189" encType="multipart/form-data">
-                                                                            <div className="arrival-mask">
-                                                                                <a href="/ca-chua-bi" className="btnsubmit add-cart"><span><i className="fa fa-shopping-cart" /> Mua hàng</span></a>
-                                                                            </div>
-                                                                        </form>
-                                                                    </div>
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -88,13 +78,7 @@ export default class HMprodtop extends React.Component {
                                                                         <p className="special-price"> <small>Giá: </small>25.000₫</p>
                                                                         <p className="old-price"><small>Giá: </small>30.000₫</p>
                                                                     </div>
-                                                                    <div className="action">
-                                                                        <form action="/cart/add" method="post" className="variants" id="product-actions-1308192" encType="multipart/form-data">
-                                                                            <div className="arrival-mask">
-                                                                                <a href="/chuoi-tieu" className="btnsubmit add-cart"><span><i className="fa fa-shopping-cart" /> Mua hàng</span></a>
-                                                                            </div>
-                                                                        </form>
-                                                                    </div>
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -115,13 +99,7 @@ export default class HMprodtop extends React.Component {
                                                                         <p className="special-price"> <small>Giá: </small>59.000₫</p>
                                                                         <p className="old-price"><small>Giá: </small>95.000₫</p>
                                                                     </div>
-                                                                    <div className="action">
-                                                                        <form action="/cart/add" method="post" className="variants" id="product-actions-1308243" encType="multipart/form-data">
-                                                                            <div className="arrival-mask">
-                                                                                <a href="/nho-khong-hat" className="btnsubmit add-cart"><span><i className="fa fa-shopping-cart" /> Mua hàng</span></a>
-                                                                            </div>
-                                                                        </form>
-                                                                    </div>
+
                                                                 </div>
                                                             </div>
                                                         </div>

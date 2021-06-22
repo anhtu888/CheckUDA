@@ -25,19 +25,16 @@ export default class News extends React.Component {
                                         <div className="site-content" id="primary">
                                             <div role="main" id="content">
                                                 <article className="blog_entry clearfix wow bounceInUp animated">
-                                                    <div className="col-md-5 col-sm-5 col-xs-12 no-padding">
+                                                    <div style={{ marginBottom: "50px" }} className="col-md-5 col-sm-5 col-xs-12 no-padding">
                                                         <div className="featured-thumb">
-                                                            <a href="/cach-nhan-biet-chuoi-chin-tu-nhien-va-chuoi-chin-do-nhung-hoa-chat"><img className="blog-thumb" alt="blog-img4" src="//bizweb.dktcdn.net/thumb/large/100/053/074/articles/chuoi.jpg?v=1453614160363" /></a>
+                                                            <a href="/cach-nhan-biet-chuoi-chin-tu-nhien-va-chuoi-chin-do-nhung-hoa-chat"><img style={{ maxWidth: "100%" }} className="blog-thumb" alt="blog-img4" src="//bizweb.dktcdn.net/thumb/large/100/053/074/articles/chuoi.jpg?v=1453614160363" /></a>
                                                         </div>
                                                     </div>
                                                     <div className="col-md-7 col-sm-7 col-xs-12 no-padding-right">
                                                         <div className="entry-content">
                                                             <div className="blog_entry-header-inner">
                                                                 <h2 className="blog_entry-title"> <a rel="bookmark" href="/cach-nhan-biet-chuoi-chin-tu-nhien-va-chuoi-chin-do-nhung-hoa-chat">Cách nhận biết chuối chín tự nhiên và chuối chín do nhúng hóa chất</a> </h2>
-                                                                <p>
-                                                                    Bởi LV Team
-                                                                    <time className="entry-date">(24/01/2016)</time>
-                                                                </p>
+
                                                             </div>
                                                             <div className="entry-content">
                                                                 Để kiếm lời bất chính, nhiều người không cần quan tâm tới sức khỏe cũng như tính mạng của người khác. Họ sẵn sàng dùng hóa chất độc hại để thúc chín trái cây, một trong số đó là trái chuối.
@@ -48,19 +45,16 @@ export default class News extends React.Component {
                                                     </div>
                                                 </article>
                                                 <article className="blog_entry clearfix wow bounceInUp animated">
-                                                    <div className="col-md-5 col-sm-5 col-xs-12 no-padding">
+                                                    <div style={{ marginBottom: "50px" }} className="col-md-5 col-sm-5 col-xs-12 no-padding">
                                                         <div className="featured-thumb">
-                                                            <a href="/nhung-nguoi-nay-khong-nen-an-dua-trong-dong"><img className="blog-thumb" alt="blog-img4" src="//bizweb.dktcdn.net/thumb/large/100/053/074/articles/nhung-nguoi-nay-khong-nen-an-dua-trong-dong-1.jpg?v=1453612178490" /></a>
+                                                            <a href="/nhung-nguoi-nay-khong-nen-an-dua-trong-dong"><img style={{ maxWidth: "100%" }} className="blog-thumb" alt="blog-img4" src="//bizweb.dktcdn.net/thumb/large/100/053/074/articles/nhung-nguoi-nay-khong-nen-an-dua-trong-dong-1.jpg?v=1453612178490" /></a>
                                                         </div>
                                                     </div>
                                                     <div className="col-md-7 col-sm-7 col-xs-12 no-padding-right">
                                                         <div className="entry-content">
                                                             <div className="blog_entry-header-inner">
                                                                 <h2 className="blog_entry-title"> <a rel="bookmark" href="/nhung-nguoi-nay-khong-nen-an-dua-trong-dong">Những người này không nên ăn dứa trong đông</a> </h2>
-                                                                <p>
-                                                                    Bởi LV Team
-                                                                    <time className="entry-date">(24/01/2016)</time>
-                                                                </p>
+
                                                             </div>
                                                             <div className="entry-content">
                                                                 Dứa có chứa rất nhiều vitamin, khoáng chất cần thiết cho sức khỏe con người nhưng không phải ai cũng có thể ăn được dứa, nhất là vào mùa đông.
@@ -73,17 +67,14 @@ export default class News extends React.Component {
                                                 <article className="blog_entry clearfix wow bounceInUp animated">
                                                     <div className="col-md-5 col-sm-5 col-xs-12 no-padding">
                                                         <div className="featured-thumb">
-                                                            <a href="/3-bi-quyet-lua-chon-thuc-pham-sach"><img className="blog-thumb" alt="blog-img4" src="//bizweb.dktcdn.net/thumb/large/100/053/074/articles/ba-bi-quyet-lua-chon-thuc-pham-sach-1.jpg?v=1453612036687" /></a>
+                                                            <a href="/3-bi-quyet-lua-chon-thuc-pham-sach"><img style={{ maxWidth: "100%" }} className="blog-thumb" alt="blog-img4" src="//bizweb.dktcdn.net/thumb/large/100/053/074/articles/ba-bi-quyet-lua-chon-thuc-pham-sach-1.jpg?v=1453612036687" /></a>
                                                         </div>
                                                     </div>
                                                     <div className="col-md-7 col-sm-7 col-xs-12 no-padding-right">
                                                         <div className="entry-content">
                                                             <div className="blog_entry-header-inner">
                                                                 <h2 className="blog_entry-title"> <a rel="bookmark" href="/3-bi-quyet-lua-chon-thuc-pham-sach">3 bí quyết lựa chọn thực phẩm sạch</a> </h2>
-                                                                <p>
-                                                                    Bởi LV Team
-                                                                    <time className="entry-date">(24/01/2016)</time>
-                                                                </p>
+
                                                             </div>
                                                             <div className="entry-content">
                                                                 Thị trường thực phẩm hiện nay khá phức tạp, do sự nhập nhằng giữa thực phẩm bẩn, sạch. Cách tốt nhất để bảo vệ sức khoẻ gia đình và bản thân là tự trang bị kiến thức lựa chọn thực phẩm an toàn chất lượng:
