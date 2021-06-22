@@ -154,7 +154,7 @@ export default class News extends React.Component {
                                         </div>
                                     </div>
                                     <div className="block banner hidden-sm hidden-xs">
-                                        <a href="/collections/all"><img src="//bizweb.dktcdn.net/100/053/074/themes/67956/assets/block-banner.png?1564585298508" alt="block-banner" /></a>
+                                        <a href="/collections/all"><img src="asset/web/images/block-banner.png" alt="block-banner" /></a>
                                     </div>
                                 </aside>
                             </div>

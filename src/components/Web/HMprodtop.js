@@ -13,6 +13,9 @@ export default class HMprodtop extends React.Component {
                                             <div className="prodgrid">
                                                 <div className="prodimg">
                                                     <div className="sale-label sale-top-right">Mới ! <i className="fa fa-star" /></div>
+                                                    <div className="qrcode ">
+                                                        <img src="asset/web/images/qr.png" alt="Mã QR code" />
+                                                    </div>
                                                     <a href="/bo-vo-san" title="Bơ vỏ sần">
                                                         <img src="asset/web/images/bo.jpg" className="img-responsive" alt="Bơ vỏ sần" />
                                                     </a>
@@ -25,6 +28,11 @@ export default class HMprodtop extends React.Component {
                                                         <div className="pricebox">
                                                             <p className="special-price"><small>Giá: </small>40.000₫</p>
                                                             <p className="old-price"><small>Giá: </small>45.000₫</p>
+
+
+
+                                                            <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
+
                                                         </div>
 
                                                     </div>
@@ -46,6 +54,9 @@ export default class HMprodtop extends React.Component {
                                                             <div className="prodimg">
                                                                 <a href="/ca-chua-bi" title="Cà chua bi">
                                                                     <img src="asset/web/images/cachuabi.jpg" className="img-responsive" alt="Cà chua bi" />
+                                                                    <div className="qrcode ">
+                                                                        <img src="asset/web/images/qr.png" alt="Mã QR code" />
+                                                                    </div>
                                                                 </a>
                                                             </div>
                                                             <div className="prodinfo">
@@ -56,6 +67,7 @@ export default class HMprodtop extends React.Component {
                                                                     <div className="pricebox">
                                                                         <p className="special-price"> <small>Giá: </small>30.000₫</p>
                                                                         <p className="old-price"><small>Giá: </small>35.000₫</p>
+                                                                        <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                                     </div>
 
                                                                 </div>
@@ -67,6 +79,9 @@ export default class HMprodtop extends React.Component {
                                                             <div className="prodimg">
                                                                 <a href="/chuoi-tieu" title="Chuối tiêu">
                                                                     <img src="asset/web/images/chuoi.jpg" className="img-responsive" alt="Chuối tiêu" />
+                                                                    <div className="qrcode ">
+                                                                        <img src="asset/web/images/qr.png" alt="Mã QR code" />
+                                                                    </div>
                                                                 </a>
                                                             </div>
                                                             <div className="prodinfo">
@@ -77,6 +92,7 @@ export default class HMprodtop extends React.Component {
                                                                     <div className="pricebox">
                                                                         <p className="special-price"> <small>Giá: </small>25.000₫</p>
                                                                         <p className="old-price"><small>Giá: </small>30.000₫</p>
+                                                                        <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                                     </div>
 
                                                                 </div>
@@ -88,6 +104,9 @@ export default class HMprodtop extends React.Component {
                                                             <div className="prodimg">
                                                                 <a href="/nho-khong-hat" title="Nho không hạt">
                                                                     <img src="asset/web/images/nho.jpg" className="img-responsive" alt="Nho không hạt" />
+                                                                    <div className="qrcode ">
+                                                                        <img src="asset/web/images/qr.png" alt="Mã QR code" />
+                                                                    </div>
                                                                 </a>
                                                             </div>
                                                             <div className="prodinfo">
@@ -98,6 +117,7 @@ export default class HMprodtop extends React.Component {
                                                                     <div className="pricebox">
                                                                         <p className="special-price"> <small>Giá: </small>59.000₫</p>
                                                                         <p className="old-price"><small>Giá: </small>95.000₫</p>
+                                                                        <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                                     </div>
 
                                                                 </div>

@@ -32,6 +32,7 @@ export default class HMProductSales extends React.Component {
                                                 <div className="pricebox">
                                                     <p className="special-price"> <small>Giá: </small>25.000₫</p>
                                                     <p className="old-price"><small>Giá: </small>45.000₫</p>
+                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                 </div>
 
                                             </div>
@@ -60,6 +61,7 @@ export default class HMProductSales extends React.Component {
                                                 <div className="pricebox">
                                                     <p className="special-price"> <small>Giá: </small>40.000₫</p>
                                                     <p className="old-price"><small>Giá: </small>45.000₫</p>
+                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                 </div>
 
                                             </div>
@@ -88,6 +90,7 @@ export default class HMProductSales extends React.Component {
                                                 <div className="pricebox">
                                                     <p className="special-price"> <small>Giá: </small>100.000₫</p>
                                                     <p className="old-price"><small>Giá: </small>150.000₫</p>
+                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                 </div>
 
                                             </div>
@@ -116,6 +119,7 @@ export default class HMProductSales extends React.Component {
                                                 <div className="pricebox">
                                                     <p className="special-price"> <small>Giá: </small>200.000₫</p>
                                                     <p className="old-price"><small>Giá: </small>250.000₫</p>
+                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                 </div>
 
                                             </div>
@@ -144,6 +148,7 @@ export default class HMProductSales extends React.Component {
                                                 <div className="pricebox">
                                                     <p className="special-price"> <small>Giá: </small>85.000₫</p>
                                                     <p className="old-price"><small>Giá: </small>105.000₫</p>
+                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                 </div>
 
                                             </div>
@@ -172,6 +177,7 @@ export default class HMProductSales extends React.Component {
                                                 <div className="pricebox">
                                                     <p className="special-price"> <small>Giá: </small>50.000₫</p>
                                                     <p className="old-price"><small>Giá: </small>70.000₫</p>
+                                                    <a href="/qrcode" className="btn btn-success">Xem Chi Tiết</a>
                                                 </div>
 
                                             </div>
