@@ -60,10 +60,11 @@ export default class Contact extends React.Component {
                                         <div className="page-title">
                                             <h2>Thông tin liên hệ</h2>
                                         </div>
-                                        <p>Đ/C: Tòa nhà Ladeco, Đội Cấn, Ba Đình, Hà Nội</p>
-                                        <p>Điện thoại: +84 963.647.129</p>
-                                        <p>Email: vtquy291991@gmail.com</p>
-                                        <p>website: wwww.lvteam.com</p>
+                                        <h4><span>Địa chỉ liên hệ</span></h4>
+                                        <p>Đ/C: 33 Xô Viết Nghệ Tĩnh, Hải Châu, Đà Nẵng</p>
+                                        <p>Điện thoại: +84 702.406.546</p>
+                                        <p>Email: checkuda@gmail.com</p>
+                                        <p>website: wwww.uda.com</p>
                                         <div className="social">
                                             <a href="#"><i className="fa fa-linkedin" /></a>
                                             <a href="#"><i className="fa fa-pinterest-p" /></a>

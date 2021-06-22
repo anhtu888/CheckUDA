@@ -30,8 +30,8 @@ export default class Footer extends React.Component {
                                     <h4><span>Địa chỉ liên hệ</span></h4>
                                     <p>Đ/C: 33 Xô Viết Nghệ Tĩnh, Hải Châu, Đà Nẵng</p>
                                     <p>Điện thoại: +84 702.406.546</p>
-                                    <p>Email: nguyendaimaitien@gmail.com</p>
-                                    <p>website: wwww.daitien.com</p>
+                                    <p>Email: checkuda@gmail.com</p>
+                                    <p>website: wwww.uda.com</p>
                                     <div className="social">
                                         {/* <a href="#"><i className="fa fa-linkedin" /></a> */}
                                         {/* <a href="#"><i className="fa fa-pinterest-p" /></a> */}

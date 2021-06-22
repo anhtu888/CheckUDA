@@ -2747,3 +2747,7 @@ aside.col-md-3 #account-phone:before
 #RecoverPassword:hover{
 	color:#1dc483;
 }
+.qrcode {
+	max-width: 50%;
+	float: right;
+}

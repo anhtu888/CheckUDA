@@ -45,13 +45,7 @@ export default class Product extends React.Component {
                                                                         <p className="special-price"> <small>Giá: </small>100.000₫</p>
                                                                         <p className="old-price"><small>Giá: </small>150.000₫</p>
                                                                     </div>
-                                                                    <div className="action">
-                                                                        <form action="/cart/add" method="post" className="variants" id="product-actions-1308475" encType="multipart/form-data">
-                                                                            <div className="arrival-mask">
-                                                                                <a href="/ca-thu-loai-ngon" className="btnsubmit add-cart"><span><i className="fa fa-shopping-cart" /> Mua hàng</span></a>
-                                                                            </div>
-                                                                        </form>
-                                                                    </div>
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -59,6 +53,9 @@ export default class Product extends React.Component {
                                                             <div className="prodimg">
                                                                 <div className="sale-label sale-top-right">-
                                                                     33% <i className="fa fa-star" /></div>
+                                                                <div className="qrcode ">
+                                                                    <img style={{ maxWidth: "70%", float: "right" }} src="asset/web/images/qr.png" alt="Mã QR code" />
+                                                                </div>
                                                                 <a href="/ca-thu-loai-ngon" title="Cá thu loại ngon">
                                                                     <img src="//bizweb.dktcdn.net/thumb/large/100/053/074/products/cathu.jpg?v=1456496264743" className="img-responsive" alt="Cá thu loại ngon" />
                                                                 </a>
@@ -77,6 +74,9 @@ export default class Product extends React.Component {
                                                         <div className="prodimg">
                                                             <div className="sale-label sale-top-right">-
                                                                 20% <i className="fa fa-star" /></div>
+                                                            <div className="qrcode ">
+                                                                <img src="asset/web/images/qr.png" alt="Mã QR code" />
+                                                            </div>
                                                             <a href="/be-be-loai-to" title="Bề bề loại to">
                                                                 <img src="//bizweb.dktcdn.net/thumb/medium/100/053/074/products/bebe.jpg?v=1456496589787" className="img-responsive" alt="Bề bề loại to" />
                                                             </a>
@@ -90,13 +90,7 @@ export default class Product extends React.Component {
                                                                     <p className="special-price"> <small>Giá: </small>200.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>250.000₫</p>
                                                                 </div>
-                                                                <div className="action">
-                                                                    <form action="/cart/add" method="post" className="variants" id="product-actions-1308473" encType="multipart/form-data">
-                                                                        <div className="arrival-mask">
-                                                                            <a href="/be-be-loai-to" className="btnsubmit add-cart"><span><i className="fa fa-shopping-cart" /> Mua hàng</span></a>
-                                                                        </div>
-                                                                    </form>
-                                                                </div>
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -106,6 +100,9 @@ export default class Product extends React.Component {
                                                         <div className="prodimg">
                                                             <div className="sale-label sale-top-right">-
                                                                 19% <i className="fa fa-star" /></div>
+                                                            <div className="qrcode ">
+                                                                <img src="asset/web/images/qr.png" alt="Mã QR code" />
+                                                            </div>
                                                             <a href="/tom-hum-loai-1" title="Tôm hùm loại 1">
                                                                 <img src="//bizweb.dktcdn.net/thumb/medium/100/053/074/products/tom.jpg?v=1456496954320" className="img-responsive" alt="Tôm hùm loại 1" />
                                                             </a>
@@ -119,13 +116,7 @@ export default class Product extends React.Component {
                                                                     <p className="special-price"> <small>Giá: </small>85.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>105.000₫</p>
                                                                 </div>
-                                                                <div className="action">
-                                                                    <form action="/cart/add" method="post" className="variants" id="product-actions-1308472" encType="multipart/form-data">
-                                                                        <div className="arrival-mask">
-                                                                            <a href="/tom-hum-loai-1" className="btnsubmit add-cart"><span><i className="fa fa-shopping-cart" /> Mua hàng</span></a>
-                                                                        </div>
-                                                                    </form>
-                                                                </div>
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -135,6 +126,9 @@ export default class Product extends React.Component {
                                                         <div className="prodimg">
                                                             <div className="sale-label sale-top-right">-
                                                                 29% <i className="fa fa-star" /></div>
+                                                            <div className="qrcode ">
+                                                                <img src="asset/web/images/qr.png" alt="Mã QR code" />
+                                                            </div>
                                                             <a href="/cua-bien" title="Cua Cà Mau Chất lượng">
                                                                 <img src="//bizweb.dktcdn.net/thumb/medium/100/053/074/products/cua.jpg?v=1456497278093" className="img-responsive" alt="Cua Cà Mau Chất lượng" />
                                                             </a>
@@ -148,13 +142,7 @@ export default class Product extends React.Component {
                                                                     <p className="special-price"> <small>Giá: </small>50.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>70.000₫</p>
                                                                 </div>
-                                                                <div className="action">
-                                                                    <form action="/cart/add" method="post" className="variants" id="product-actions-1308471" encType="multipart/form-data">
-                                                                        <div className="arrival-mask">
-                                                                            <a href="/cua-bien" className="btnsubmit add-cart"><span><i className="fa fa-shopping-cart" /> Mua hàng</span></a>
-                                                                        </div>
-                                                                    </form>
-                                                                </div>
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -164,6 +152,9 @@ export default class Product extends React.Component {
                                                         <div className="prodimg">
                                                             <div className="sale-label sale-top-right">-
                                                                 12% <i className="fa fa-star" /></div>
+                                                            <div className="qrcode ">
+                                                                <img src="asset/web/images/qr.png" alt="Mã QR code" />
+                                                            </div>
                                                             <a href="/muc-tuoi" title="Mực ống">
                                                                 <img src="//bizweb.dktcdn.net/thumb/medium/100/053/074/products/muc.jpg?v=1456497515940" className="img-responsive" alt="Mực ống" />
                                                             </a>
@@ -177,13 +168,7 @@ export default class Product extends React.Component {
                                                                     <p className="special-price"> <small>Giá: </small>150.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>170.000₫</p>
                                                                 </div>
-                                                                <div className="action">
-                                                                    <form action="/cart/add" method="post" className="variants" id="product-actions-1308470" encType="multipart/form-data">
-                                                                        <div className="arrival-mask">
-                                                                            <a href="/muc-tuoi" className="btnsubmit add-cart"><span><i className="fa fa-shopping-cart" /> Mua hàng</span></a>
-                                                                        </div>
-                                                                    </form>
-                                                                </div>
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -193,6 +178,9 @@ export default class Product extends React.Component {
                                                         <div className="prodimg">
                                                             <div className="sale-label sale-top-right">-
                                                                 20% <i className="fa fa-star" /></div>
+                                                            <div className="qrcode ">
+                                                                <img src="asset/web/images/qr.png" alt="Mã QR code" />
+                                                            </div>
                                                             <a href="/lac-vai-heo" title="Thịt nạc vai lợn TNV10">
                                                                 <img src="//bizweb.dktcdn.net/thumb/medium/100/053/074/products/vaiheo.jpg?v=1456497783687" className="img-responsive" alt="Thịt nạc vai lợn TNV10" />
                                                             </a>
@@ -206,13 +194,7 @@ export default class Product extends React.Component {
                                                                     <p className="special-price"> <small>Giá: </small>120.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>150.000₫</p>
                                                                 </div>
-                                                                <div className="action">
-                                                                    <form action="/cart/add" method="post" className="variants" id="product-actions-1308369" encType="multipart/form-data">
-                                                                        <div className="arrival-mask">
-                                                                            <a href="/lac-vai-heo" className="btnsubmit add-cart"><span><i className="fa fa-shopping-cart" /> Mua hàng</span></a>
-                                                                        </div>
-                                                                    </form>
-                                                                </div>
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -222,6 +204,9 @@ export default class Product extends React.Component {
                                                         <div className="prodimg">
                                                             <div className="sale-label sale-top-right">-
                                                                 14% <i className="fa fa-star" /></div>
+                                                            <div className="qrcode ">
+                                                                <img src="asset/web/images/qr.png" alt="Mã QR code" />
+                                                            </div>
                                                             <a href="/trung-ga-sach" title="Trứng gà sạch">
                                                                 <img src="//bizweb.dktcdn.net/thumb/medium/100/053/074/products/trungga.jpg?v=1456498100447" className="img-responsive" alt="Trứng gà sạch" />
                                                             </a>
@@ -235,13 +220,7 @@ export default class Product extends React.Component {
                                                                     <p className="special-price"> <small>Giá: </small>30.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>35.000₫</p>
                                                                 </div>
-                                                                <div className="action">
-                                                                    <form action="/cart/add" method="post" className="variants" id="product-actions-1308368" encType="multipart/form-data">
-                                                                        <div className="arrival-mask">
-                                                                            <a href="/trung-ga-sach" className="btnsubmit add-cart"><span><i className="fa fa-shopping-cart" /> Mua hàng</span></a>
-                                                                        </div>
-                                                                    </form>
-                                                                </div>
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -251,6 +230,9 @@ export default class Product extends React.Component {
                                                         <div className="prodimg">
                                                             <div className="sale-label sale-top-right">-
                                                                 19% <i className="fa fa-star" /></div>
+                                                            <div className="qrcode ">
+                                                                <img src="asset/web/images/qr.png" alt="Mã QR code" />
+                                                            </div>
                                                             <a href="/thit-heo-ba-chi" title="Thịt lợn ba chỉ sạch">
                                                                 <img src="//bizweb.dktcdn.net/thumb/medium/100/053/074/products/lonbachi.jpg?v=1456498408320" className="img-responsive" alt="Thịt lợn ba chỉ sạch" />
                                                             </a>
@@ -264,13 +246,7 @@ export default class Product extends React.Component {
                                                                     <p className="special-price"> <small>Giá: </small>85.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>105.000₫</p>
                                                                 </div>
-                                                                <div className="action">
-                                                                    <form action="/cart/add" method="post" className="variants" id="product-actions-1308367" encType="multipart/form-data">
-                                                                        <div className="arrival-mask">
-                                                                            <a href="/thit-heo-ba-chi" className="btnsubmit add-cart"><span><i className="fa fa-shopping-cart" /> Mua hàng</span></a>
-                                                                        </div>
-                                                                    </form>
-                                                                </div>
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -280,6 +256,9 @@ export default class Product extends React.Component {
                                                         <div className="prodimg">
                                                             <div className="sale-label sale-top-right">-
                                                                 7% <i className="fa fa-star" /></div>
+                                                            <div className="qrcode ">
+                                                                <img src="asset/web/images/qr.png" alt="Mã QR code" />
+                                                            </div>
                                                             <a href="/thit-bo-tuoi-loai-1" title="Thịt bò tươi sống">
                                                                 <img src="//bizweb.dktcdn.net/thumb/medium/100/053/074/products/botuoi.jpg?v=1456498668607" className="img-responsive" alt="Thịt bò tươi sống" />
                                                             </a>
@@ -293,13 +272,7 @@ export default class Product extends React.Component {
                                                                     <p className="special-price"> <small>Giá: </small>250.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>270.000₫</p>
                                                                 </div>
-                                                                <div className="action">
-                                                                    <form action="/cart/add" method="post" className="variants" id="product-actions-1308366" encType="multipart/form-data">
-                                                                        <div className="arrival-mask">
-                                                                            <a href="/thit-bo-tuoi-loai-1" className="btnsubmit add-cart"><span><i className="fa fa-shopping-cart" /> Mua hàng</span></a>
-                                                                        </div>
-                                                                    </form>
-                                                                </div>
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -309,6 +282,9 @@ export default class Product extends React.Component {
                                                         <div className="prodimg">
                                                             <div className="sale-label sale-top-right">-
                                                                 21% <i className="fa fa-star" /></div>
+                                                            <div className="qrcode ">
+                                                                <img src="asset/web/images/qr.png" alt="Mã QR code" />
+                                                            </div>
                                                             <a href="/thit-bo-uc-loai-1" title="Thịt gà sạch">
                                                                 <img src="//bizweb.dktcdn.net/thumb/medium/100/053/074/products/thitga.jpg?v=1456498985200" className="img-responsive" alt="Thịt gà sạch" />
                                                             </a>
@@ -322,13 +298,7 @@ export default class Product extends React.Component {
                                                                     <p className="special-price"> <small>Giá: </small>95.000₫</p>
                                                                     <p className="old-price"><small>Giá: </small>120.000₫</p>
                                                                 </div>
-                                                                <div className="action">
-                                                                    <form action="/cart/add" method="post" className="variants" id="product-actions-1308365" encType="multipart/form-data">
-                                                                        <div className="arrival-mask">
-                                                                            <a href="/thit-bo-uc-loai-1" className="btnsubmit add-cart"><span><i className="fa fa-shopping-cart" /> Mua hàng</span></a>
-                                                                        </div>
-                                                                    </form>
-                                                                </div>
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -336,7 +306,7 @@ export default class Product extends React.Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="pager">
+                                    {/* <div className="pager">
                                         <div className="pages">
                                             <ul className="pagination">
                                                 <li className="pag"><a href><i className="fa fa-angle-double-left" /></a></li>
@@ -346,7 +316,7 @@ export default class Product extends React.Component {
                                                 <li className="pag"><a href="/collections/all?page=2"><i className="fa fa-angle-double-right" /></a></li>
                                             </ul>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <aside className="sidebar col-right col-md-3 col-xs-12 col-sm-12">
                                     <div className="service-content clearfix hidden-sm hidden-xs">

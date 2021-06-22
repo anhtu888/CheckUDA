@@ -22,7 +22,7 @@ export default class HMFeedCustomer extends React.Component {
                                             <div className="ppsaycontentcmt">
                                                 <p><span>“ </span>Chúng tôi rất hài lòng về chất lượng sản phẩm của shop cũng như về chất lượng dịch vụ. Chúc shop làm ăn phát đạt và có nhiều dịch vụ tốt hơn nữa.<span>”</span></p>
                                             </div>
-                                            <p><span>Khách hàng:</span> <span className="name">Nguyễn Hương</span></p>
+                                            <p><span>Khách hàng:</span> <span className="name">Mai Tiến</span></p>
                                         </div>
                                     </div>
                                     <div className="ppsaycontent col-xs-12 col-sm-6 col-md-6">
@@ -33,7 +33,7 @@ export default class HMFeedCustomer extends React.Component {
                                             <div className="ppsaycontentcmt">
                                                 <p><span>“ </span>Khi mua hàng online ở shop , tôi hoàn toàn tin tưởng sự uy tín của shop dành cho khách hàng chúng tôi. Chúc shop ngày càng phát triển<span>”</span></p>
                                             </div>
-                                            <p><span>Khách hàng:</span> <span className="name">Phạm Linh</span></p>
+                                            <p><span>Khách hàng:</span> <span className="name">Anh Tú</span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -48,7 +48,7 @@ export default class HMFeedCustomer extends React.Component {
                                             <div className="ppsaycontentcmt">
                                                 <p><span>“ </span>Chúng tôi rất hài lòng về chất lượng sản phẩm của shop cũng như về chất lượng dịch vụ. Chúc shop làm ăn phát đạt và có nhiều dịch vụ tốt hơn nữa.<span>”</span></p>
                                             </div>
-                                            <p><span>Khách hàng:</span> <span className="name">Hải Hoàng</span></p>
+                                            <p><span>Khách hàng:</span> <span className="name">Công Viên</span></p>
                                         </div>
                                     </div>
                                     <div className="ppsaycontent col-xs-12 col-sm-6 col-md-6">
@@ -59,7 +59,7 @@ export default class HMFeedCustomer extends React.Component {
                                             <div className="ppsaycontentcmt">
                                                 <p><span>“ </span>Chúng tôi rất hài lòng về chất lượng sản phẩm của shop cũng như về chất lượng dịch vụ. Chúc shop làm ăn phát đạt và có nhiều dịch vụ tốt hơn nữa.<span>”</span></p>
                                             </div>
-                                            <p><span>Khách hàng:</span> <span className="name">Thu Lan</span></p>
+                                            <p><span>Khách hàng:</span> <span className="name">Phúc Hưng</span></p>
                                         </div>
                                     </div>
                                 </div>
