@@ -17,7 +17,7 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 44% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/dua-hau" title="Dưa hấu">
@@ -46,7 +46,7 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 11% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/bo-vo-san" title="Bơ vỏ sần">
@@ -75,11 +75,11 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 33% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/ca-thu-loai-ngon" title="Cá thu loại ngon">
-                                                <img src="asset/web/images/cathu.jpg" className="img-responsive" alt="Cá thu loại ngon" />
+                                                <img src="asset/web/images/chuoi.jpg" className="img-responsive" alt="Cá thu loại ngon" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -104,11 +104,11 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 20% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/be-be-loai-to" title="Bề bề loại to">
-                                                <img src="asset/web/images/bebe.jpg" className="img-responsive" alt="Bề bề loại to" />
+                                                <img src="asset/web/images/duahau.jpg" className="img-responsive" alt="Bề bề loại to" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -133,11 +133,11 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 19% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/tom-hum-loai-1" title="Tôm hùm loại 1">
-                                                <img src="asset/web/images/tom.jpg" className="img-responsive" alt="Tôm hùm loại 1" />
+                                                <img src="asset/web/images/raucan.jpg" className="img-responsive" alt="Tôm hùm loại 1" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -162,11 +162,11 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 29% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/cua-bien" title="Cua Cà Mau Chất lượng">
-                                                <img src="asset/web/images/cua.jpg" className="img-responsive" alt="Cua Cà Mau Chất lượng" />
+                                                <img src="asset/web/images/suplo.jpg" className="img-responsive" alt="Cua Cà Mau Chất lượng" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -191,11 +191,11 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 12% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/muc-tuoi" title="Mực ống">
-                                                <img src="asset/web/images/muc.jpg" className="img-responsive" alt="Mực ống" />
+                                                <img src="asset/web/images/chuoi.jpg" className="img-responsive" alt="Mực ống" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -219,11 +219,11 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 21% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/thit-bo-uc-loai-1" title="Thịt gà sạch">
-                                                <img src="asset/web/images/thitga.jpg" className="img-responsive" alt="Thịt gà sạch" />
+                                                <img src="asset/web/images/bo.jpg" className="img-responsive" alt="Thịt gà sạch" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -247,11 +247,11 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 7% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/thit-bo-tuoi-loai-1" title="Thịt bò tươi sống">
-                                                <img src="asset/web/images/botuoi.jpg" className="img-responsive" alt="Thịt bò tươi sống" />
+                                                <img src="asset/web/images/nho.jpg" className="img-responsive" alt="Thịt bò tươi sống" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -275,11 +275,11 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 19% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/thit-heo-ba-chi" title="Thịt lợn ba chỉ sạch">
-                                                <img src="asset/web/images/lonbachi.jpg" className="img-responsive" alt="Thịt lợn ba chỉ sạch" />
+                                                <img src="asset/web/images/muop.jpg" className="img-responsive" alt="Thịt lợn ba chỉ sạch" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -303,11 +303,11 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 14% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/trung-ga-sach" title="Trứng gà sạch">
-                                                <img src="asset/web/images/trungga.jpg" className="img-responsive" alt="Trứng gà sạch" />
+                                                <img src="asset/web/images/raucan.jpg" className="img-responsive" alt="Trứng gà sạch" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -331,11 +331,11 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 20% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/lac-vai-heo" title="Thịt nạc vai lợn TNV10">
-                                                <img src="asset/web/images/vaiheo.jpg" className="img-responsive" alt="Thịt nạc vai lợn TNV10" />
+                                                <img src="asset/web/images/duahau.jpg" className="img-responsive" alt="Thịt nạc vai lợn TNV10" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -359,11 +359,11 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 7% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/thit-be-uc" title="Thịt bò nhập khẩu">
-                                                <img src="asset/web/images/thitbe.jpg" className="img-responsive" alt="Thịt bò nhập khẩu" />
+                                                <img src="asset/web/images/dua.jpg" className="img-responsive" alt="Thịt bò nhập khẩu" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -387,7 +387,7 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 7% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/sup-lo-xanh" title="Súp lơ xanh">
@@ -415,7 +415,7 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 80% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/rau-thom" title="Rau thơm">
@@ -443,7 +443,7 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 29% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/rau-can-xao-bo" title="Rau cần xào bò">
@@ -471,7 +471,7 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 33% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/muop-huong" title="Mướp hương">
@@ -499,7 +499,7 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 17% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/chuoi-tieu" title="Chuối tiêu">
@@ -527,7 +527,7 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 7% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/dua-da-lat" title="Dứa Đà Lạt">
@@ -555,7 +555,7 @@ export default class HMCardGifts extends React.Component {
                                                 -
                                                 38% <i className="fa fa-star" />
                                             </div>
-                                            <div className="qrcode ">
+                                            <div style={{ maxWidth: "30%" }} className="qrcode ">
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/nho-khong-hat" title="Nho không hạt">

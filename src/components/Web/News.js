@@ -40,7 +40,7 @@ export default class News extends React.Component {
                                                                 Để kiếm lời bất chính, nhiều người không cần quan tâm tới sức khỏe cũng như tính mạng của người khác. Họ sẵn sàng dùng hóa chất độc hại để thúc chín trái cây, một trong số đó là trái chuối.
                                                                 được dùng để thúc chuối chín là...
                                                             </div>
-                                                            <p> <a className="blog-btn" href="/cach-nhan-biet-chuoi-chin-tu-nhien-va-chuoi-chin-do-nhung-hoa-chat">Xem chi tiết <i className="fa fa-angle-double-right" /></a></p>
+                                                            {/* <p> <a className="blog-btn" href="/cach-nhan-biet-chuoi-chin-tu-nhien-va-chuoi-chin-do-nhung-hoa-chat">Xem chi tiết <i className="fa fa-angle-double-right" /></a></p> */}
                                                         </div>
                                                     </div>
                                                 </article>
@@ -60,7 +60,7 @@ export default class News extends React.Component {
                                                                 Dứa có chứa rất nhiều vitamin, khoáng chất cần thiết cho sức khỏe con người nhưng không phải ai cũng có thể ăn được dứa, nhất là vào mùa đông.
                                                                 Ăn dứa đem lại rất nhiều lợi ích như giúp cải thiện những vấn đề về da, tăng...
                                                             </div>
-                                                            <p> <a className="blog-btn" href="/nhung-nguoi-nay-khong-nen-an-dua-trong-dong">Xem chi tiết <i className="fa fa-angle-double-right" /></a></p>
+                                                            {/* <p> <a className="blog-btn" href="/nhung-nguoi-nay-khong-nen-an-dua-trong-dong">Xem chi tiết <i className="fa fa-angle-double-right" /></a></p> */}
                                                         </div>
                                                     </div>
                                                 </article>
@@ -80,7 +80,7 @@ export default class News extends React.Component {
                                                                 Thị trường thực phẩm hiện nay khá phức tạp, do sự nhập nhằng giữa thực phẩm bẩn, sạch. Cách tốt nhất để bảo vệ sức khoẻ gia đình và bản thân là tự trang bị kiến thức lựa chọn thực phẩm an toàn chất lượng:
                                                                 Nên chọn mua...
                                                             </div>
-                                                            <p> <a className="blog-btn" href="/3-bi-quyet-lua-chon-thuc-pham-sach">Xem chi tiết <i className="fa fa-angle-double-right" /></a></p>
+                                                            {/* <p> <a className="blog-btn" href="/3-bi-quyet-lua-chon-thuc-pham-sach">Xem chi tiết <i className="fa fa-angle-double-right" /></a></p> */}
                                                         </div>
                                                     </div>
                                                 </article>
@@ -121,11 +121,11 @@ export default class News extends React.Component {
                                         </div>
                                         <div className="category-content">
                                             <ul className="list-collections submenu">
-                                                <li className="level0 "><a href="/hoa-qua-sach">Hoa quả sạch</a></li>
-                                                <li className="level0 "><a href="/rau-sach">Rau sạch</a></li>
-                                                <li className="level0 "><a href="/thit-sach">Thịt sạch</a></li>
-                                                <li className="level0 "><a href="/thuy-hai-san-sach">Thuỷ - Hải sản sạch</a></li>
-                                                <li className="level0 "><a href="/gao-hat-kho">Gạo - Hạt khô</a></li>
+                                                <li className="level0 "><a href="/product1">Hoa quả sạch</a></li>
+                                                <li className="level0 "><a href="/product2">Rau sạch</a></li>
+                                                <li className="level0 "><a href="/product3">Thịt sạch</a></li>
+                                                <li className="level0 "><a href="/product4">Thuỷ - Hải sản sạch</a></li>
+                                                <li className="level0 "><a href="/product5">Gạo - Hạt khô</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -135,27 +135,27 @@ export default class News extends React.Component {
                                         </div>
                                         <div className="blog-content">
                                             <ul className="list-article">
-                                                <li><a href="/cach-nhan-biet-chuoi-chin-tu-nhien-va-chuoi-chin-do-nhung-hoa-chat">Cách nhận biết chuối chín tự nhiên và chuối chín do nhúng hóa chất</a></li>
-                                                <li><a href="/nhung-nguoi-nay-khong-nen-an-dua-trong-dong">Những người này không nên ăn dứa trong đông</a></li>
-                                                <li><a href="/3-bi-quyet-lua-chon-thuc-pham-sach">3 bí quyết lựa chọn thực phẩm sạch</a></li>
+                                                <li><a href="#">Cách nhận biết chuối chín tự nhiên và chuối chín do nhúng hóa chất</a></li>
+                                                <li><a href="#">Những người này không nên ăn dứa trong đông</a></li>
+                                                <li><a href="#">3 bí quyết lựa chọn thực phẩm sạch</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div className="block policy">
                                         <div className="policy-content">
                                             <div className="policy-1">
-                                                <a href="/chinh-sach"><i className="fa fa-gift" /> Chính sách quà tặng</a>
+                                                <a href="#"><i className="fa fa-gift" /> Chính sách quà tặng</a>
                                             </div>
                                             <div className="policy-2">
-                                                <a href="/dieu-khoan"><i className="fa fa-truck" /> Chính sách vận chuyển</a>
+                                                <a href="#"><i className="fa fa-truck" /> Chính sách vận chuyển</a>
                                             </div>
                                             <div className="policy-3">
-                                                <a href="/huong-dan"><i className="fa fa-shopping-basket" /> Chính sách Mua hàng</a>
+                                                <a href="#"><i className="fa fa-shopping-basket" /> Chính sách Mua hàng</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="block banner hidden-sm hidden-xs">
-                                        <a href="/collections/all"><img src="asset/web/images/block-banner.png" alt="block-banner" /></a>
+                                        <a href="#"><img src="asset/web/images/block-banner.png" alt="block-banner" /></a>
                                     </div>
                                 </aside>
                             </div>

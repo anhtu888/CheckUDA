@@ -79,7 +79,7 @@ export default class HMProductSales extends React.Component {
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/ca-thu-loai-ngon" title="Cá thu loại ngon">
-                                                <img src="asset/web/images/cathu.jpg" className="img-responsive" alt="Cá thu loại ngon" />
+                                                <img src="asset/web/images/dua.jpg" className="img-responsive" alt="Cá thu loại ngon" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -108,7 +108,7 @@ export default class HMProductSales extends React.Component {
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/be-be-loai-to" title="Bề bề loại to">
-                                                <img src="asset/web/images/bebe.jpg" className="img-responsive" alt="Bề bề loại to" />
+                                                <img src="asset/web/images/muop.jpg" className="img-responsive" alt="Bề bề loại to" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -137,7 +137,7 @@ export default class HMProductSales extends React.Component {
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/tom-hum-loai-1" title="Tôm hùm loại 1">
-                                                <img src="asset/web/images/tom.jpg" className="img-responsive" alt="Tôm hùm loại 1" />
+                                                <img src="asset/web/images/cachuabi.jpg" className="img-responsive" alt="Tôm hùm loại 1" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -166,7 +166,7 @@ export default class HMProductSales extends React.Component {
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/cua-bien" title="Cua Cà Mau Chất lượng">
-                                                <img src="asset/web/images/cua.jpg" className="img-responsive" alt="Cua Cà Mau Chất lượng" />
+                                                <img src="asset/web/images/nho.jpg" className="img-responsive" alt="Cua Cà Mau Chất lượng" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -195,7 +195,7 @@ export default class HMProductSales extends React.Component {
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/muc-tuoi" title="Mực ống">
-                                                <img src="asset/web/images/muc.jpg" className="img-responsive" alt="Mực ống" />
+                                                <img src="asset/web/images/raumuithom.jpg" className="img-responsive" alt="Mực ống" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -223,7 +223,7 @@ export default class HMProductSales extends React.Component {
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/thit-bo-uc-loai-1" title="Thịt gà sạch">
-                                                <img src="asset/web/images/thitga.jpg" className="img-responsive" alt="Thịt gà sạch" />
+                                                <img src="asset/web/images/raucan.jpg" className="img-responsive" alt="Thịt gà sạch" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -251,7 +251,7 @@ export default class HMProductSales extends React.Component {
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/thit-bo-tuoi-loai-1" title="Thịt bò tươi sống">
-                                                <img src="asset/web/images/botuoi.jpg" className="img-responsive" alt="Thịt bò tươi sống" />
+                                                <img src="asset/web/images/dua.jpg" className="img-responsive" alt="Thịt bò tươi sống" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -279,7 +279,7 @@ export default class HMProductSales extends React.Component {
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/thit-heo-ba-chi" title="Thịt lợn ba chỉ sạch">
-                                                <img src="asset/web/images/lonbachi.jpg" className="img-responsive" alt="Thịt lợn ba chỉ sạch" />
+                                                <img src="asset/web/images/nho.jpg" className="img-responsive" alt="Thịt lợn ba chỉ sạch" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -307,7 +307,7 @@ export default class HMProductSales extends React.Component {
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/trung-ga-sach" title="Trứng gà sạch">
-                                                <img src="asset/web/images/trungga.jpg" className="img-responsive" alt="Trứng gà sạch" />
+                                                <img src="asset/web/images/chuoi.jpg" className="img-responsive" alt="Trứng gà sạch" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -335,7 +335,7 @@ export default class HMProductSales extends React.Component {
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/lac-vai-heo" title="Thịt nạc vai lợn TNV10">
-                                                <img src="asset/web/images/vaiheo.jpg" className="img-responsive" alt="Thịt nạc vai lợn TNV10" />
+                                                <img src="asset/web/images/muop.jpg" className="img-responsive" alt="Thịt nạc vai lợn TNV10" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">
@@ -363,7 +363,7 @@ export default class HMProductSales extends React.Component {
                                                 <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                             </div>
                                             <a href="/thit-be-uc" title="Thịt bò nhập khẩu">
-                                                <img src="asset/web/images/thitbe.jpg" className="img-responsive" alt="Thịt bò nhập khẩu" />
+                                                <img src="asset/web/images/duahau.jpg" className="img-responsive" alt="Thịt bò nhập khẩu" />
                                             </a>
                                         </div>
                                         <div className="prodinfo">

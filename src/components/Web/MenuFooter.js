@@ -20,7 +20,7 @@ export default class MenuFooter extends React.Component {
                             <li ><a href="/contat">Liên hệ</a></li>
                         </ul>
                         <div className="col-md-10 col-sm-12 col-xs-12 col-md-offset-1">
-                            <ul className="nav navbar-nav navbar-right">
+                            <ul style={{ paddingLeft: "105px" }} className="nav navbar-nav navbar-right">
                                 <li ><a href="/">Trang chủ</a></li>
                                 <li ><a href="/about">Giới thiệu</a></li>
                                 <li >
