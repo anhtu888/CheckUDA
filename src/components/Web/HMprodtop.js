@@ -13,7 +13,7 @@ export default class HMprodtop extends React.Component {
                                             <div className="prodgrid">
                                                 <div className="prodimg">
                                                     <div className="sale-label sale-top-right">Mới ! <i className="fa fa-star" /></div>
-                                                    <div className="qrcode ">
+                                                    <div style={{ maxWidth: "25%" }} className="qrcode ">
                                                         <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                                     </div>
                                                     <a href="/bo-vo-san" title="Bơ vỏ sần">
@@ -54,7 +54,7 @@ export default class HMprodtop extends React.Component {
                                                             <div className="prodimg">
                                                                 <a href="/ca-chua-bi" title="Cà chua bi">
                                                                     <img src="asset/web/images/cachuabi.jpg" className="img-responsive" alt="Cà chua bi" />
-                                                                    <div className="qrcode ">
+                                                                    <div style={{ maxWidth: "25%" }} className="qrcode ">
                                                                         <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                                                     </div>
                                                                 </a>
@@ -79,7 +79,7 @@ export default class HMprodtop extends React.Component {
                                                             <div className="prodimg">
                                                                 <a href="/chuoi-tieu" title="Chuối tiêu">
                                                                     <img src="asset/web/images/chuoi.jpg" className="img-responsive" alt="Chuối tiêu" />
-                                                                    <div className="qrcode ">
+                                                                    <div style={{ maxWidth: "25%" }} className="qrcode ">
                                                                         <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                                                     </div>
                                                                 </a>
@@ -104,7 +104,7 @@ export default class HMprodtop extends React.Component {
                                                             <div className="prodimg">
                                                                 <a href="/nho-khong-hat" title="Nho không hạt">
                                                                     <img src="asset/web/images/nho.jpg" className="img-responsive" alt="Nho không hạt" />
-                                                                    <div className="qrcode ">
+                                                                    <div style={{ maxWidth: "25%" }} className="qrcode ">
                                                                         <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                                                     </div>
                                                                 </a>

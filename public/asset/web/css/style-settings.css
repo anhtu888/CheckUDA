@@ -2748,6 +2748,6 @@ aside.col-md-3 #account-phone:before
 	color:#1dc483;
 }
 .qrcode {
-	max-width: 50%;
+	max-width: 40%;
 	float: right;
 }

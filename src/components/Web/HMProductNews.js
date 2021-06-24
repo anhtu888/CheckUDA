@@ -21,7 +21,7 @@ export default class HMProductNews extends React.Component {
                                     </div>
 
                                     <a href="/lac-vai-heo" title="Thịt nạc vai lợn TNV10">
-                                        <img src="asset/web/images/vaiheo.jpg" className="img-responsive" alt="Thịt nạc vai lợn TNV10" />
+                                        <img src="asset/web/images/dua.jpg" className="img-responsive" alt="Thịt nạc vai lợn TNV10" />
                                     </a>
                                 </div>
                                 <div className="prodinfo">
@@ -50,7 +50,7 @@ export default class HMProductNews extends React.Component {
                                         <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                     </div>
                                     <a href="/trung-ga-sach" title="Trứng gà sạch">
-                                        <img src="asset/web/images/trungga.jpg" className="img-responsive" alt="Trứng gà sạch" />
+                                        <img src="asset/web/images/duahau.jpg" className="img-responsive" alt="Trứng gà sạch" />
                                     </a>
                                 </div>
                                 <div className="prodinfo">
@@ -79,7 +79,7 @@ export default class HMProductNews extends React.Component {
                                         <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                     </div>
                                     <a href="/thit-heo-ba-chi" title="Thịt lợn ba chỉ sạch">
-                                        <img src="asset/web/images/lonbachi.jpg" className="img-responsive" alt="Thịt lợn ba chỉ sạch" />
+                                        <img src="asset/web/images/raucan.jpg" className="img-responsive" alt="Thịt lợn ba chỉ sạch" />
                                     </a>
                                 </div>
                                 <div className="prodinfo">
@@ -108,7 +108,7 @@ export default class HMProductNews extends React.Component {
                                         <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                     </div>
                                     <a href="/thit-bo-tuoi-loai-1" title="Thịt bò tươi sống">
-                                        <img src="asset/web/images/botuoi.jpg" className="img-responsive" alt="Thịt bò tươi sống" />
+                                        <img src="asset/web/images/muop.jpg" className="img-responsive" alt="Thịt bò tươi sống" />
                                     </a>
                                 </div>
                                 <div className="prodinfo">
@@ -137,7 +137,7 @@ export default class HMProductNews extends React.Component {
                                         <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                     </div>
                                     <a href="/thit-bo-uc-loai-1" title="Thịt gà sạch">
-                                        <img src="asset/web/images/thitga.jpg" className="img-responsive" alt="Thịt gà sạch" />
+                                        <img src="asset/web/images/bo.jpg" className="img-responsive" alt="Thịt gà sạch" />
                                     </a>
                                 </div>
                                 <div className="prodinfo">
@@ -166,7 +166,7 @@ export default class HMProductNews extends React.Component {
                                         <img src="asset/web/images/qr.png" alt="Mã QR code" />
                                     </div>
                                     <a href="/thit-be-uc" title="Thịt bò nhập khẩu">
-                                        <img src="asset/web/images/thitbe.jpg" className="img-responsive" alt="Thịt bò nhập khẩu" />
+                                        <img src="asset/web/images/chuoi.jpg" className="img-responsive" alt="Thịt bò nhập khẩu" />
                                     </a>
                                 </div>
                                 <div className="prodinfo">

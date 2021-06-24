@@ -8,11 +8,11 @@ export default class HMCategory extends React.Component {
                 </div>
                 <div className="category-content">
                     <ul className="list-collections submenu">
-                        <li className="level0 "><a href="/hoa-qua-sach">Hoa quả sạch</a></li>
-                        <li className="level0 "><a href="/rau-sach">Rau sạch</a></li>
-                        <li className="level0 "><a href="/thit-sach">Thịt sạch</a></li>
-                        <li className="level0 "><a href="/thuy-hai-san-sach">Thuỷ - Hải sản sạch</a></li>
-                        <li className="level0 "><a href="/gao-hat-kho">Gạo - Hạt khô</a></li>
+                        <li className="level0 "><a href="/product1">Hoa quả sạch</a></li>
+                        <li className="level0 "><a href="/product2">Rau sạch</a></li>
+                        <li className="level0 "><a href="/product3">Thịt sạch</a></li>
+                        <li className="level0 "><a href="/product4">Thuỷ - Hải sản sạch</a></li>
+                        <li className="level0 "><a href="/product5">Gạo - Hạt khô</a></li>
                     </ul>
                 </div>
             </div>

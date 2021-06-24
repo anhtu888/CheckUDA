@@ -45,18 +45,18 @@ export default class HomeMain extends React.Component {
                                 <div className="block policy">
                                     <div className="policy-content">
                                         <div className="policy-1">
-                                            <a href="/chinh-sach"><i className="fa fa-gift" /> Chính sách quà tặng</a>
+                                            <a href="#"><i className="fa fa-gift" /> Chính sách quà tặng</a>
                                         </div>
                                         <div className="policy-2">
-                                            <a href="/dieu-khoan"><i className="fa fa-truck" /> Chính sách vận chuyển</a>
+                                            <a href="#"><i className="fa fa-truck" /> Chính sách vận chuyển</a>
                                         </div>
                                         <div className="policy-3">
                                             <a href="/huong-dan"><i className="fa fa-shopping-basket" /> Chính sách Mua hàng</a>
-                                        </div>
+                                        </div>"#"
                                     </div>
                                 </div>
                                 <div className="block banner hidden-sm hidden-xs">
-                                    <a href="/collections/all"><img src="asset/web/images/block-banner.png" alt="block-banner" /></a>
+                                    <a href="#"><img src="asset/web/images/block-banner.png" alt="block-banner" /></a>
                                 </div>
                             </aside>
                         </div>

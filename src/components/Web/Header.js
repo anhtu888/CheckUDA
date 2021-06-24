@@ -4,7 +4,7 @@ export default class Header extends React.Component {
         return (
             <header id="header">
                 <nav className="navbar st-navbar navbar-fixed-top">
-                    <div className="head-top">
+                    {/* <div className="head-top">
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-4 col-sm-4 col-xs-12">
@@ -21,7 +21,7 @@ export default class Header extends React.Component {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="head-mid clearfix">
                         <div className="navbar-header">
                             <div className="container">
@@ -67,18 +67,18 @@ export default class Header extends React.Component {
                                     <li ><a href="/lien-he">Liên hệ</a></li>
                                 </ul>
                                 <div className="col-md-10 col-sm-12 col-xs-12 col-md-offset-1">
-                                    <ul className="nav navbar-nav navbar-right">
+                                    <ul style={{ paddingLeft: "50px" }} className="nav navbar-nav navbar-right">
                                         <li ><a href="/">Trang chủ</a></li>
                                         <li ><a href="/about">Giới thiệu</a></li>
                                         <li >
-                                            <a href="/product">Sản phẩm <i className="fa fa-angle-down" /></a>
-                                            <ul className="submenu">
+                                            <a href="/product">Sản phẩm </a>
+                                            {/* <ul className="submenu">
                                                 <li><a href="/product1">Hoa quả sạch</a></li>
                                                 <li><a href="/product2">Rau sạch</a></li>
                                                 <li><a href="/product3">Thịt sạch</a></li>
                                                 <li><a href="/product4">Thuỷ - Hải sản sạch</a></li>
                                                 <li><a href="/product5">Gạo - Hạt khô</a></li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
                                         <li ><a href="/new">Tin tức</a></li>
                                         <li ><a href="/tuvan">Tư vấn</a></li>
